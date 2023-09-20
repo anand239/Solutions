@@ -1,0 +1,157 @@
+# @(#)B.11.31_LRhosts $Revision: 1.9.214.1 $ $Date: 96/10/08 13:20:01 
+#
+# The form for each entry is:
+# <internet address>	<official hostname> <aliases>
+#
+# For example:
+# 192.1.2.34	hpfcrm	loghost
+#
+# See the hosts(4) manual page for more information.
+# Note: The entries cannot be preceded by a space.
+#	The format described in this file is the correct format.
+#       The original Berkeley manual page contains an error in
+#	the format description.
+#
+127.0.0.1       localhost       loopback
+204.230.51.222	usplsdp016
+#204.230.51.220	usplsdp015
+
+204.230.51.236	usplsdpm001.resrc.entsvcs.com	usplsdpm001
+204.230.51.237	usplsdpm002.resrc.entsvcs.com	usplsdpm002
+204.230.51.238	usplcdpmn01.resrc.entsvcs.com	usplcdpmn01
+204.230.51.247 	usplcdpfn01.resrc.entsvcs.com	usplcdpfn01
+
+204.230.51.230  usplsdpm005.americas.hpqcorp.net        usplsdpm005
+########OVO
+192.57.55.31 ustlcomla100.amer.corp.eds.com
+192.57.55.32 ustls100.amer.corp.eds.com
+192.57.55.33 ustls101.amer.corp.eds.com
+192.57.82.27 usahs001.amer.corp.eds.com
+192.57.82.28 usahs002.amer.corp.eds.com
+192.57.82.29 usahcomla100.amer.corp.eds.com
+204.105.15.162 uspls100.amer.corp.eds.com
+204.105.15.163 uspls101.amer.corp.eds.com
+204.105.15.161 usplcomla100.amer.corp.eds.com
+#NTP Server.
+138.35.151.112          swa-ntp.ssn.hpe.com     #Primary
+138.35.151.48           tor-ntp.ssn.hpe.com
+
+#SMTP
+16.201.144.132  smtp3.hp.com
+16.234.33.148   smtp3.hp.com
+16.216.185.78   smtp3.hp.com
+16.210.25.219   smtp3.hp.com
+16.228.10.157   smtp3.hp.com
+16.197.8.247    smtp3.hp.com
+
+# HPOM server details:
+138.35.160.249	casts102.ssn.entsvcs.com        casts102.tor.omc.hp.com		casts102         #Primary
+138.35.161.186  camms103.ssn.entsvcs.com        camms103.tor.omc.hp.com		camms103         #Secondary
+138.35.160.248  castsomla101.ssn.entsvcs.com	castsomla101.tor.omc.hp.com	castsomla101     #Virtual
+
+#PCM
+148.94.85.77    usplsgosd002.pcm.eds.com  usplspcm001.gls.gdad.edssdn.net
+
+#SOEA
+172.25.8.29 	usplsdfpa100
+172.25.8.30	usplsdfpa101
+
+
+#APLL Servers
+#NDMP VMWARE PROXY
+15.147.128.170	usdc1infmsbk01p.apll.com
+
+#NAS
+#15.147.128.178	ebitnas5.apll.com
+#15.147.128.173	estgnas11.apllnp.com
+#15.147.128.124   usdc1nanast1a-e0a usdc1nanast1a
+#15.147.128.174	usdc1nanast2b
+#15.147.128.174  usdc1nanast2b-e0a	usdc1nanast2b
+15.147.128.174   usdc1nanast2b
+15.147.128.124	usdc1nanast1a
+15.147.128.178	usdc1nanast1b
+15.147.128.173  usdc1nanast2a
+
+#windows&Unix systems
+#production systesm
+15.147.128.120	dtcpp0510dmz.apll.com
+15.147.128.121	dtcpp0511dmz.apll.com
+#15.147.128.180	usdc1inffpwp01v.apll.com
+#15.147.128.181	usdc1inffpwp02v.apll.com
+#15.147.128.182	usdc1inffpwp03v.apll.com
+15.147.128.126	usdc1infnawp01v.apll.com
+15.147.128.109	dtcdvd735.apllnp.com
+#15.147.128.110	dtcpv0407.apll.com
+15.147.128.111	dtcpv0502.apll.com
+#15.147.128.112	dtcpv0507.apll.com
+#15.147.128.102	dtcpv0734.apll.com
+#15.147.128.113	dtcpv0736.apll.com
+15.147.128.114	dtcpv0805.apll.com
+#15.147.128.115	dtcpva802.apll.com
+#15.147.128.116	dtcpva803.apll.com
+#15.147.128.117	dtcpva806.apll.com
+#15.147.128.118	dtcpva807.apll.com
+15.147.128.119	dtcpvd800.apll.com
+#15.147.128.101	dtcpvd733.apll.com
+15.147.128.193	usdc1pbcapwp01v.apll.com
+15.147.128.194	usdc1pbcapwp02v.apll.com
+15.147.128.122  usdc1vctmswp01v.apll.com	usdc1vctmswp01v
+#15.147.128.179	usdc1inffpws01v.apllnp.com
+#15.147.128.103	dtcdv0403.apllnp.com
+#15.147.128.104	dtcdv0722.apllnp.com
+15.147.128.106	dtcdva801.apllnp.com
+15.147.128.107	dtcdva804.apllnp.com
+15.147.128.108	dtcdva805.apllnp.com
+15.147.128.120	dtcpp0510dmz.apll.com
+15.147.128.121	dtcpp0511dmz.apll.com
+#15.147.128.180	usdc1inffpwp01v.apll.com
+#15.147.128.181	usdc1inffpwp02v.apll.com
+#15.147.128.182	usdc1inffpwp03v.apll.com
+#15.147.128.179	usdc1inffpws01v.apllnp.com
+15.147.128.126	usdc1infnawp01v.apll.com
+15.147.128.195	usdc1pbcapws01v.apllnp.com
+15.147.128.196	usdc1pbcapws02v.apllnp.com
+15.147.128.129	d1dal713.apll.com
+15.147.128.105	dtcdva800.apllnp.com
+15.147.128.139	usdc1infmsntp01.apll.com
+15.147.128.140	usdc1infmsntp02.apll.com 
+
+#ACS123non prod
+
+15.147.128.201	ustxacsapls03v.apll.com	ustxacsapls03v
+15.147.128.203	ustxacsdbls03v.apll.com	ustxacsdbls03v
+15.147.128.204	ustxacsapls04v.apll.com ustxacsapls04v
+15.147.128.205	ustxacsapls05v.apll.com	ustxacsapls05v
+15.147.128.206	ustxacsdbls04v.apll.com ustxacsdbls04v
+15.147.128.207	ustxacsdbls05v.apll.com	ustxacsdbls05v
+15.147.128.209	ustxacsapls06v.apllacsnp.com	ustxacsapls06v
+#15.147.128.211	ustxacsapls07v.apll.com	ustxacsapls07v
+15.147.128.213	ustxacsapls08v.apll.com	ustxacsapls08v
+
+#ACS123PROD
+#15.147.128.197  ustxacsapwp01p.d1.ad.apll.com 	ustxacsapwp01p
+15.147.128.197	ustxacsapwp01p.apllacs.com		ustxacsapwp01p
+15.147.128.179	ustxacsaplp01v.apll.com	ustxacsaplp01v
+15.147.128.180	ustxacsaplp02v.apll.com	ustxacsaplp02v
+15.147.128.198	ustxacsaplp03v.apll.com	ustxacsaplp03v
+15.147.128.199	ustxacsaplp04v.apll.com	ustxacsaplp04v
+15.147.128.208	ustxacsaplp05v.apll.com	ustxacsaplp05v
+15.147.128.210	ustxacsaplp07v.apll.com	ustxacsaplp07v
+15.147.128.212	ustxacsaplp08v.apll.com	ustxacsaplp08v
+15.147.128.142	ustxacsdblp01p.apll.com	ustxacsdblp01p
+15.147.128.143	ustxacsdblp02p.apll.com	ustxacsdblp02p
+#RCU Servers moved from usplsdp012
+
+15.147.129.11	usplsrcu519
+15.147.129.12	usplsrcu520
+15.147.129.15	usplsrcu525
+15.147.129.16	usplsrcu526
+15.147.129.13	usplsrcu521.rcu.svcs.entsvcs.net     usplsrcu521
+15.147.129.14	usplsrcu522.rcu.svcs.entsvcs.net     usplsrcu522
+#TorQUE: 35443
+15.147.129.17   usplsrcsh557.rcu.svcs.entsvcs.net    usplsrcsh557
+15.147.129.18   usplsrcsh558.rcu.svcs.entsvcs.net    usplsrcsh558
+15.147.128.110  usdc1infmsbk02p.apll.com
+15.147.128.183	usdc1dlkaplp02v.apll.com
+# GE servers
+15.147.130.136	usplsklm01

@@ -1,0 +1,10 @@
+{
+  "Mail": {
+    "Subject": "DP Hung Backup Report",
+    "SmtpServer": "smtp.svcs.hpe.com",
+    "Port": 25,
+    "From": "DP HungBackupReport Automation<do.not.reply@dxc.com>",
+    "To": "TO@dxc.com",
+    "CC": ""
+  }
+}
