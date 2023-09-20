@@ -1,0 +1,63 @@
+Storeonce library tape formatting.
+
+Take input parameters from user for all the scratch pools which needs tapes to be reset.
+
+Step 1:
+ustlsdp003:/maint# omnimm -list_pool USTLSDP015_STB01_ST1_SCRATCH
+
+ustlsdp015:/# omnimm -list_pool USTLSDP015_STB01_ST1_SCRATCH
+
+Status Medium Label                  Location                               Full Protected
+==========================================================================================
+Good   [IXHHHOKK] IXHHHOKK              [USTLSDP015_STB01_ST1:   291]       No   None
+Good   [IXHHHOWR] IXHHHOWR              [USTLSDP015_STB01_ST1:   430]       No   None
+Good   [IXHHHOD1] IXHHHOD1              [USTLSDP015_STB01_ST1:    20]       No   None
+Good   [IXHHHTVE] IXHHHTVE              [USTLSDP015_STB01_ST1:  2065]       No   None
+Good   [IXHHHQM2] IXHHHQM2              [USTLSDP015_STB01_ST1:   537]       No   None
+Good   [IXHHHOU6] IXHHHOU6              [USTLSDP015_STB01_ST1:   337]       No   None
+Good   [IXHHHUF4] IXHHHUF4              [USTLSDP015_STB01_ST1:  2775]       No   None
+Good   [IXHHHTOS] IXHHHTOS              [USTLSDP015_STB01_ST1:  1827]       No   None
+Good   [IXHHHQX0] IXHHHQX0              [USTLSDP015_STB01_ST1:   931]       No   None
+Good   [IXHHHQXH] IXHHHQXH              [USTLSDP015_STB01_ST1:   948]       No   None
+Good   [IXHHHQXJ] IXHHHQXJ              [USTLSDP015_STB01_ST1:   950]       No   None
+Good   [IXHHHQXO] IXHHHQXO              [USTLSDP015_STB01_ST1:   955]       No   None
+Good   [IXHHHQYA] IXHHHQYA              [USTLSDP015_STB01_ST1:   977]       No   None
+Good   [IXHHHQYM] IXHHHQYM              [USTLSDP015_STB01_ST1:   989]       No   None
+Poor   IXHHHSGD                                                             No   None
+Poor   IXHHHSCY                                                             No   None
+Poor   IXHHHSG0                                                             No   None
+Poor   IXHHHSEZ                                                             No   None
+Poor   IXHHHSES                                                             No   None
+Poor   IXHHHSIC                                                             No   None
+Poor   IXHHHSGY                                                             No   None
+Poor   IXHHHSEV                                                             No   None
+Poor   IXHHHSIA                                                             No   None
+Poor   IXHHHSGX                                                             No   None
+Poor   IXHHHSHD                                                             No   None
+Poor   IXHHHQWX                                                             No   None
+Poor   IXHHHSEJ                                                             No   None
+Poor   IXHHHSEL                                                             No   None
+Poor   IXHHHSHK                                                             No   None
+Poor   IXHHHSHR                                                             No   None
+Poor   IXHHHSHI                                                             No   None
+Poor   IXHHHQOE                                                             No   None
+Poor   IXHHHSF1                                                             No   None
+Poor   IXHHHSEU                                                             No   None
+Poor   IXHHHSHZ                                                             No   None
+
+
+Step 2:
+
+From above command take the barcode label of the poor tapes one by one.
+
+Step 3:
+
+For all the list of poor tapes identified, below command has to be executed and output to be stored in a file along with date and time.
+
+ustlsdp015:/# omnimm -reset_poor_medium IXHHHSCY
+Reset poor flag on medium IXHHHSCY.
+
+
+
+
+

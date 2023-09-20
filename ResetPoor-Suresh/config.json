@@ -1,0 +1,20 @@
+{
+  "InputFile": "InputPoolFile.txt",
+  "Account": "******",
+  "BackupServer": "******",
+  "Command1Windows": "omnimm -list_pool PoolName",
+  "Command2Windows": "omnimm -reset_poor_medium Label",
+  "Command3Windows": "omnimm -list_pool -detail",
+  "Command1NonWindows": "/opt/omni/bin/omnimm -list_pool PoolName",
+  "Command2NonWindows": "/opt/omni/bin/omnimm -reset_poor_medium Label",
+  "Command3NONWindows": "/opt/omni/bin/omnimm -list_pool -detail",
+  "SendEmail": "Yes",
+  "Mail": {
+    "Subject": "Reset Poor Media",
+    "SmtpServer": "SMTP",
+    "Port": 25,
+    "From": "Reset Poor Media<do.not.reply@dxc.com>",
+    "To": "TO@dxc.com",
+    "CC": ""
+  }
+}

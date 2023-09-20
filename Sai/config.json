@@ -1,0 +1,12 @@
+{
+  "BackupServer": "cascedtps002.dxc.scc.burs.ssn.entsvcs.net;cascedtps001.dxc.scc.burs.ssn.entsvcs.net;camcedtps101.dxc.mcc.burs.ssn.entsvcs.com;camcedtps101.dxc.mcc.burs.ssn.entsvcs.com",
+  "Mail": {
+    "Subject": "SRA || AMS || - : Disk Space issue",
+    "Port": 25,
+    "SmtpServer": "smtp.svcs.hpe.com",
+    "From": "From@dxc.com",
+    "To": "TO@dxc.com",
+    "CC": "CC1@dxc.com;CC2@dxc.com"
+  },
+  "SendEmail": "Yes"
+}

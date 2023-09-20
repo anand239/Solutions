@@ -1,0 +1,881 @@
+[Normal] From: BSM@auuledtp101.ssn.entsvcs.com "GSU1_WIN01_FS_Daily" Time: 11/17/2021 8:00:01 PM
+	Backup session 2021/11/17-56 started.
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:00:15 PM
+	STARTING Media Agent "auuledtp101_Drive5_ESL1"
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:00:15 PM
+	STARTING Media Agent "auuledtp101_Drive6_ESL1"
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:01:01 PM
+	=> UMA@auuledtp101.ssn.entsvcs.com@/dev/sg11
+	Loading medium from slot 93 to device /dev/nst2
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:01:20 PM
+	=> UMA@auuledtp101.ssn.entsvcs.com@/dev/sg11
+	Loading medium from slot 47 to device /dev/nst8
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:46 PM
+	STARTING Disk Agent for aqkvsv01.resrc.entsvcs.com:/CONFIGURATION "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:46 PM
+	STARTING Disk Agent for aqkvsv03.resrc.entsvcs.com:/CONFIGURATION "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:00:47 PM
+	STARTING Disk Agent for asmasv01.resrc.entsvcs.com:/CONFIGURATION "asmasv01.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:47 PM
+	STARTING Disk Agent for aqkvsv02.resrc.entsvcs.com:/CONFIGURATION "aqkvsv02.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:59 PM
+	STARTING Disk Agent for asmasv02.resrc.entsvcs.com:/CONFIGURATION "asmasv02.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:37 PM
+	STARTING Disk Agent for asmasv03.resrc.entsvcs.com:/CONFIGURATION "asmasv03.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:38 PM
+	STARTING Disk Agent for asmasv04.resrc.entsvcs.com:/CONFIGURATION "asmasv04.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:00:50 PM
+	STARTING Disk Agent for asmasv06.resrc.entsvcs.com:/CONFIGURATION "asmasv06.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:40 PM
+	STARTING Disk Agent for asmasv05.resrc.entsvcs.com:/CONFIGURATION "asmasv05.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:01:48 PM
+	STARTING Disk Agent for aqkvsv05.resrc.entsvcs.com:/CONFIGURATION "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:03 PM
+	STARTING Disk Agent for aqkvsv01.resrc.entsvcs.com:/C "aqkvsv01.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:03 PM
+	STARTING Disk Agent for aqkvsv02.resrc.entsvcs.com:/C "aqkvsv02.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:01:56 PM
+	STARTING Disk Agent for asmasv05.resrc.entsvcs.com:/C "asmasv05.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:15 PM
+	STARTING Disk Agent for asmasv02.resrc.entsvcs.com:/C "asmasv02.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:01:03 PM
+	STARTING Disk Agent for asmasv01.resrc.entsvcs.com:/C "asmasv01.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:01:54 PM
+	STARTING Disk Agent for asmasv04.resrc.entsvcs.com:/C "asmasv04.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:52 PM
+	STARTING Disk Agent for asmasv03.resrc.entsvcs.com:/C "asmasv03.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:28 PM
+	STARTING Disk Agent for asmasv07.resrc.entsvcs.com:/CONFIGURATION "asmasv07.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:03 PM
+	STARTING Disk Agent for aqkvsv03.resrc.entsvcs.com:/C "aqkvsv03.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:04 PM
+	STARTING Disk Agent for aqkvsv05.resrc.entsvcs.com:/C "aqkvsv05.resrc.entsvcs.com [/C]".
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\COMPONENTS
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SAM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\Schema
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SECURITY
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SOFTWARE
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SYSTEM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\.DEFAULT
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:31 PM
+	VSS Writer 'Task Scheduler Writer':Component 'TasksStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:31 PM
+	VSS Writer 'VSS Metadata Store Writer':Component 'WriterMetadataStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:31 PM
+	VSS Writer 'Performance Counters Writer':Component 'PerformanceCounters' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:32 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'Task Scheduler Writer':Component 'TasksStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'VSS Metadata Store Writer':Component 'WriterMetadataStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'Performance Counters Writer':Component 'PerformanceCounters' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:35 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\COMPONENTS
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SAM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\Schema
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SECURITY
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SOFTWARE
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SYSTEM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\.DEFAULT
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:39 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:43 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'Task Scheduler Writer':Component 'TasksStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'VSS Metadata Store Writer':Component 'WriterMetadataStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'Performance Counters Writer':Component 'PerformanceCounters' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:02 PM
+	VSS Writer 'IIS Config Writer':Component 'IISCONFIG' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'Task Scheduler Writer':Component 'TasksStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'VSS Metadata Store Writer':Component 'WriterMetadataStore' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'Performance Counters Writer':Component 'PerformanceCounters' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'IIS Config Writer':Component 'IISCONFIG' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS Writer 'IIS Metabase Writer':Component 'IISMETABASE' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:06 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:03 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:02 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:04 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:28 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:16 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:17 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:18 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:13 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:14 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:15 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:02:26 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:03:39 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\Application.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\HardwareEvents.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\System.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:36 PM
+	SRD information could not be collected. Aborting the collecting of system recovery information.
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:36 PM
+[81:141]  	\SystemRecoveryData
+	Cannot export configuration object: (Unknown internal error.) => backup incomplete.
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:49 PM
+	COMPLETED Disk Agent for aqkvsv01.resrc.entsvcs.com:/CONFIGURATION "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:04:52 PM
+	STARTING Disk Agent for asmasv06.resrc.entsvcs.com:/C "asmasv06.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:32 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:05:44 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:04 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:04 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:17 PM
+	COMPLETED Disk Agent for asmasv05.resrc.entsvcs.com:/CONFIGURATION "asmasv05.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:08:50 PM
+	STARTING Disk Agent for asmasv07.resrc.entsvcs.com:/C "asmasv07.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:22 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:22 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:23 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:30 PM
+	COMPLETED Disk Agent for asmasv07.resrc.entsvcs.com:/CONFIGURATION "asmasv07.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:07 PM
+	STARTING Disk Agent for aqkvsv01.resrc.entsvcs.com:/D "aqkvsv01.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:09:36 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:07 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:07 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:07 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:07 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:15 PM
+	COMPLETED Disk Agent for asmasv04.resrc.entsvcs.com:/CONFIGURATION "asmasv04.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:14 PM
+	COMPLETED Disk Agent for asmasv03.resrc.entsvcs.com:/CONFIGURATION "asmasv03.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:26 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:26 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:26 PM
+	STARTING Disk Agent for aqkvsv03.resrc.entsvcs.com:/D "aqkvsv03.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:26 PM
+	STARTING Disk Agent for aqkvsv02.resrc.entsvcs.com:/D "aqkvsv02.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:34 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:41 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:47 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:47 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:51 PM
+	COMPLETED Disk Agent for aqkvsv01.resrc.entsvcs.com:/D "aqkvsv01.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:08:54 PM
+	COMPLETED Disk Agent for asmasv06.resrc.entsvcs.com:/CONFIGURATION "asmasv06.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:08:52 PM
+	STARTING Disk Agent for asmasv01.resrc.entsvcs.com:/D "asmasv01.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:52 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:53 PM
+	STARTING Disk Agent for aqkvsv05.resrc.entsvcs.com:/D "aqkvsv05.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:06 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:06 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:55 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:03 PM
+	COMPLETED Disk Agent for aqkvsv03.resrc.entsvcs.com:/D "aqkvsv03.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:17 PM
+	STARTING Disk Agent for asmasv02.resrc.entsvcs.com:/D "asmasv02.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:21 PM
+	COMPLETED Disk Agent for asmasv02.resrc.entsvcs.com:/CONFIGURATION "asmasv02.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:59 PM
+	STARTING Disk Agent for asmasv03.resrc.entsvcs.com:/D "asmasv03.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:10 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:16 PM
+	COMPLETED Disk Agent for aqkvsv02.resrc.entsvcs.com:/D "aqkvsv02.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:08 PM
+	STARTING Disk Agent for asmasv04.resrc.entsvcs.com:/D "asmasv04.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:26 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:28 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:28 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:34 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:34 PM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:40 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:56 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:56 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:35 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:35 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:46 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:09:47 PM
+	COMPLETED Disk Agent for asmasv01.resrc.entsvcs.com:/CONFIGURATION "asmasv01.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:41 PM
+	STARTING Disk Agent for asmasv05.resrc.entsvcs.com:/D "asmasv05.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:49 PM
+	COMPLETED Disk Agent for aqkvsv05.resrc.entsvcs.com:/D "aqkvsv05.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:10:42 PM
+	COMPLETED Disk Agent for asmasv05.resrc.entsvcs.com:/C "asmasv05.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:09:52 PM
+	STARTING Disk Agent for asmasv06.resrc.entsvcs.com:/D "asmasv06.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:15 PM
+	STARTING Disk Agent for asmasv07.resrc.entsvcs.com:/D "asmasv07.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:42 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:42 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:09 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:47 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\Application.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\HardwareEvents.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\System.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:02 PM
+	SRD information could not be collected. Aborting the collecting of system recovery information.
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:02 PM
+[81:141]  	\SystemRecoveryData
+	Cannot export configuration object: (Unknown internal error.) => backup incomplete.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:11:15 PM
+	COMPLETED Disk Agent for asmasv02.resrc.entsvcs.com:/C "asmasv02.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:11:53 PM
+	COMPLETED Disk Agent for asmasv03.resrc.entsvcs.com:/C "asmasv03.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:10:04 PM
+	STARTING Disk Agent for asmasv01.resrc.entsvcs.com:/E "asmasv01.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:05 PM
+	STARTING Disk Agent for aqkvsv05.resrc.entsvcs.com:/E "aqkvsv05.resrc.entsvcs.com [/E]".
+
+[Minor] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:04 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:56 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:08 PM
+	COMPLETED Disk Agent for asmasv01.resrc.entsvcs.com:/D "asmasv01.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:08 PM
+	COMPLETED Disk Agent for aqkvsv05.resrc.entsvcs.com:/CONFIGURATION "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:21 PM
+	STARTING Disk Agent for asmasv02.resrc.entsvcs.com:/E "asmasv02.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:59 PM
+	STARTING Disk Agent for asmasv03.resrc.entsvcs.com:/E "asmasv03.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:11:04 PM
+	COMPLETED Disk Agent for asmasv04.resrc.entsvcs.com:/C "asmasv04.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:05 PM
+	STARTING Disk Agent for asmasv04.resrc.entsvcs.com:/E "asmasv04.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:43 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:43 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:20 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:36 PM
+	COMPLETED Disk Agent for asmasv02.resrc.entsvcs.com:/D "asmasv02.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:24 PM
+	COMPLETED Disk Agent for aqkvsv03.resrc.entsvcs.com:/CONFIGURATION "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:18 PM
+	STARTING Disk Agent for asmasv05.resrc.entsvcs.com:/E "asmasv05.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:12:14 PM
+	COMPLETED Disk Agent for asmasv03.resrc.entsvcs.com:/D "asmasv03.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:10:28 PM
+	STARTING Disk Agent for asmasv06.resrc.entsvcs.com:/E "asmasv06.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:18 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:18 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:51 PM
+	STARTING Disk Agent for asmasv07.resrc.entsvcs.com:/E "asmasv07.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:18 PM
+	COMPLETED Disk Agent for asmasv04.resrc.entsvcs.com:/D "asmasv04.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:28 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:53 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:35 PM
+	VSS Writer 'System Writer':Component 'System Files' successfully added in the snapshot. 
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:35 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:10:33 PM
+	COMPLETED Disk Agent for asmasv01.resrc.entsvcs.com:/C "asmasv01.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:10:34 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:31 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:53 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:43 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:10:47 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:35 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:10:46 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:12:13 PM
+	COMPLETED Disk Agent for asmasv07.resrc.entsvcs.com:/D "asmasv07.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:39 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv01.resrc.entsvcs.com "asmasv01.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:10:52 PM
+	COMPLETED Disk Agent for asmasv01.resrc.entsvcs.com:/E "asmasv01.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:43 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:06 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv03.resrc.entsvcs.com "asmasv03.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:44 PM
+	COMPLETED Disk Agent for asmasv03.resrc.entsvcs.com:/E "asmasv03.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:51 PM
+	COMPLETED Disk Agent for asmasv05.resrc.entsvcs.com:/D "asmasv05.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:23 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv02.resrc.entsvcs.com "asmasv02.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:11 PM
+	COMPLETED Disk Agent for asmasv02.resrc.entsvcs.com:/E "asmasv02.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:55 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv04.resrc.entsvcs.com "asmasv04.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:02 PM
+	COMPLETED Disk Agent for asmasv04.resrc.entsvcs.com:/E "asmasv04.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:36 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/D]" Time: 11/17/2021 8:11:14 PM
+	COMPLETED Disk Agent for asmasv06.resrc.entsvcs.com:/D "asmasv06.resrc.entsvcs.com [/D]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:07 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:41 PM
+	COMPLETED Disk Agent for asmasv07.resrc.entsvcs.com:/E "asmasv07.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:23 PM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:18 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:28 PM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:11:36 PM
+	COMPLETED Disk Agent for asmasv06.resrc.entsvcs.com:/C "asmasv06.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv05.resrc.entsvcs.com "asmasv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:12:26 PM
+	COMPLETED Disk Agent for asmasv05.resrc.entsvcs.com:/E "asmasv05.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@asmasv06.resrc.entsvcs.com "asmasv06.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:11:36 PM
+	COMPLETED Disk Agent for asmasv06.resrc.entsvcs.com:/E "asmasv06.resrc.entsvcs.com [/E]".
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:13:15 PM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:13:21 PM
+	COMPLETED Disk Agent for aqkvsv02.resrc.entsvcs.com:/CONFIGURATION "aqkvsv02.resrc.entsvcs.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:13:39 PM
+	COMPLETED Disk Agent for aqkvsv01.resrc.entsvcs.com:/C "aqkvsv01.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@asmasv07.resrc.entsvcs.com "asmasv07.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:14:24 PM
+	COMPLETED Disk Agent for asmasv07.resrc.entsvcs.com:/C "asmasv07.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:14:10 PM
+	COMPLETED Disk Agent for aqkvsv05.resrc.entsvcs.com:/C "aqkvsv05.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:14:16 PM
+	COMPLETED Disk Agent for aqkvsv03.resrc.entsvcs.com:/C "aqkvsv03.resrc.entsvcs.com [/C]".
+
+[Normal] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/E]" Time: 11/17/2021 8:15:11 PM
+	COMPLETED Disk Agent for aqkvsv05.resrc.entsvcs.com:/E "aqkvsv05.resrc.entsvcs.com [/E]".
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:15:16 PM
+	/dev/nst2
+	Medium header verification completed, 0 errors found.
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:15:38 PM
+	Ejecting medium '93'.
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:15:38 PM
+	=> UMA@auuledtp101.ssn.entsvcs.com@/dev/sg11
+	Unloading medium to slot 93 from device /dev/nst2
+
+[Normal] From: VBDA@aqkvsv02.resrc.entsvcs.com "aqkvsv02.resrc.entsvcs.com [/C]" Time: 11/17/2021 8:15:49 PM
+	COMPLETED Disk Agent for aqkvsv02.resrc.entsvcs.com:/C "aqkvsv02.resrc.entsvcs.com [/C]".
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive5_ESL1" Time: 11/17/2021 8:15:53 PM
+	COMPLETED Media Agent "auuledtp101_Drive5_ESL1"
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:17:34 PM
+	/dev/nst8
+	Medium header verification completed, 0 errors found.
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:17:56 PM
+	Ejecting medium '47'.
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:17:56 PM
+	=> UMA@auuledtp101.ssn.entsvcs.com@/dev/sg11
+	Unloading medium to slot 47 from device /dev/nst8
+
+[Normal] From: BMA@auuledtp101.ssn.entsvcs.com "auuledtp101_Drive6_ESL1" Time: 11/17/2021 8:18:06 PM
+	COMPLETED Media Agent "auuledtp101_Drive6_ESL1"
+
+[Normal] From: BSM@auuledtp101.ssn.entsvcs.com "GSU1_WIN01_FS_Daily" Time: 11/17/2021 8:18:06 PM
+
+	Backup Statistics:
+          
+		Session Queuing Time (hours)         0.00        
+		-------------------------------------------      
+		Completed Disk Agents ........         41          
+		Failed Disk Agents ...........          0          
+		Aborted Disk Agents ..........          0          
+		-------------------------------------------      
+		Disk Agents Total  ...........         41          
+		===========================================      
+		Completed Media Agents .......          2          
+		Failed Media Agents ..........          0          
+		Aborted Media Agents .........          0          
+		-------------------------------------------      
+		Media Agents Total  ..........          2          
+		===========================================      
+		Mbytes Total .................  118609 MB        
+		Used Media Total .............          2          
+		Disk Agent Errors Total ......         27    
+

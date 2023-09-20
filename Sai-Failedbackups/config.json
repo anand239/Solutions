@@ -1,0 +1,6 @@
+{
+  "#Info": "Seperate Server names with ; semicolon if multiple "
+  "BackupServer": "Server1;Server2",
+  "ListofSessionsCommand": "omnirpt -report list_sessions -timeframe StartDate EndDate -tab -server servername",
+  "SessionLogCommand": "omnidb -session SessionId -report"
+}

@@ -1,0 +1,133 @@
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\COMPONENTS
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SAM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\Schema
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SECURITY
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SOFTWARE
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\SYSTEM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:17 PM
+[81:141]  	\Registry\.DEFAULT
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\COMPONENTS
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SAM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\Schema
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SECURITY
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SOFTWARE
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\SYSTEM
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:02:39 PM
+[81:141]  	\Registry\.DEFAULT
+	Cannot export configuration object: (Details unknown.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\Application.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\HardwareEvents.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:34 PM
+[81:141]  	\EventLog\System.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:36 PM
+	SRD information could not be collected. Aborting the collecting of system recovery information.
+
+
+[Minor] From: VBDA@aqkvsv01.resrc.entsvcs.com "aqkvsv01.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:05:36 PM
+[81:141]  	\SystemRecoveryData
+	Cannot export configuration object: (Unknown internal error.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\Application.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\HardwareEvents.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:10:58 PM
+[81:141]  	\EventLog\System.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:02 PM
+	SRD information could not be collected. Aborting the collecting of system recovery information.
+
+
+[Minor] From: VBDA@aqkvsv05.resrc.entsvcs.com "aqkvsv05.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:02 PM
+[81:141]  	\SystemRecoveryData
+	Cannot export configuration object: (Unknown internal error.) => backup incomplete.
+
+
+[Minor] From: VBDA@aqkvsv03.resrc.entsvcs.com "aqkvsv03.resrc.entsvcs.com [/CONFIGURATION]" Time: 11/17/2021 8:11:04 PM
+[81:141]  	\EventLog\Security.evtx
+	Cannot export configuration object: ([112] There is not enough space on the disk. ) => backup incomplete.
+

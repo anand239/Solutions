@@ -1,0 +1,760 @@
+Current query set
+                        name: yyznas2011;
+                    save set: /DataPower_logs_NonProd;
+
+                        name: yyzvcc2006.ana.corp.aviva.com;
+                    save set: All;
+
+                        name: yyznfs2002;
+                    save set: /FileNet_Canada_fncontent_pnc, /ORAC_u02shr_dr;
+
+                        name: YYZMDM2020;
+                    save set: All;
+
+                        name: yyzpsq2411;
+                    save set: All;
+
+                        name: yyznfs2001;
+                    save set: /SAS94_DEV_SPDS, 
+                              /GoAnywhere_Canada_mft_shared_QA, 
+                              /ORAC_u02shr_qa, /DataPower_Log;
+
+                        name: YYZMDM5020;
+                    save set: All;
+
+                        name: yyzdbs5031;
+                    save set: All;
+
+                        name: yyzgws7011;
+                    save set: All;
+
+                        name: yyzpsq2101;
+                    save set: All;
+
+                        name: yyzhdp5005;
+                    save set: All;
+
+                        name: yyzhdp4004;
+                    save set: All;
+
+                        name: yyzhdp5002;
+                    save set: All;
+
+                        name: yyzcif2003;
+                    save set: /no shares yet;
+
+                        name: yyznas2002;
+                    save set: /CIFS_TEST_FS_02;
+
+                        name: yyzbck2061.ana.corp.aviva.com;
+                    save set: "C:\\", "D:\\EMCNetWorker\\nsr\\index";
+
+                        name: yyzhdp5004;
+                    save set: All;
+
+                        name: CHODINFMQ2;
+                    save set: All;
+
+                        name: yyzsql5055;
+                    save set: All;
+
+                        name: YYZMDM3020;
+                    save set: All;
+
+                        name: yyzhdp5003;
+                    save set: All;
+
+                        name: yyzpsq2012;
+                    save set: All;
+
+                        name: yyzhdp4005;
+                    save set: All;
+
+                        name: yyzcdr2002;
+                    save set: All;
+
+                        name: yyzdbs2125;
+                    save set: All;
+
+                        name: yyzvcc2010.ana.corp.aviva.com;
+                    save set: All;
+
+                        name: yyznas2001;
+                    save set: /CA_IT;
+
+                        name: yyzscn2066;
+                    save set: All;
+
+                        name: yyzdbs3031;
+                    save set: All;
+
+                        name: yyzcdr5001;
+                    save set: All;
+
+                        name: yyzdlp1013;
+                    save set: All;
+
+                        name: yyzcif2001;
+                    save set: /BOJ_QASHRD, /adlibshare-dev, /adlibshare-pnc, 
+                              /adlibshare-qa;
+
+                        name: YYZSHR2020;
+                    save set: All;
+
+                        name: chopinfmq2;
+                    save set: All;
+
+                        name: yyzpsq2001;
+                    save set: All;
+
+                        name: casttaviv002;
+                    save set: All;
+
+                        name: yyzpsq2102;
+                    save set: All;
+
+                        name: yyzecc7013;
+                    save set: All;
+
+                        name: yyzjmp2001;
+                    save set: All;
+
+                        name: yyzdbs1041;
+                    save set: "C:\\";
+
+                        name: yyzdbs1031;
+                    save set: All;
+
+                        name: yyzeca7041;
+                    save set: All;
+
+                        name: yyzhdp2002;
+                    save set: All;
+
+                        name: yyzshy2001;
+                    save set: All;
+
+                        name: YYZSQL5040;
+                    save set: All;
+
+                        name: yyzadc1204;
+                    save set: All;
+
+                        name: yyzpsq2011;
+                    save set: All;
+
+                        name: yyzsds2002;
+                    save set: All;
+
+                        name: yyzbck2062.ana.corp.aviva.com;
+                    save set: All;
+
+                        name: yyzcpa2006;
+                    save set: All;
+
+                        name: yyzdbs2124;
+                    save set: All;
+
+                        name: YYZSCN2040;
+                    save set: "H:\\";
+
+                        name: yyzeca7042;
+                    save set: All;
+
+                        name: yyzecc3011;
+                    save set: All;
+
+                        name: YYZGWS7103;
+                    save set: All;
+
+                        name: YYZSQL2027;
+                    save set: All;
+
+                        name: yyzmcl2081;
+                    save set: All;
+
+                        name: yyzbck1011;
+                    save set: All;
+
+                        name: yyzpsp1201;
+                    save set: All;
+
+                        name: yyzdbs8126;
+                    save set: All;
+
+                        name: yyzhdp2003;
+                    save set: All;
+
+                        name: yyzecc7012;
+                    save set: All;
+
+                        name: yyzdbs2031;
+                    save set: All;
+
+                        name: YYZGWS7104;
+                    save set: All;
+
+                        name: yyzdbs2122;
+                    save set: All;
+
+                        name: yyzdbs2126;
+                    save set: All;
+
+                        name: YYZSQL2075;
+                    save set: All;
+
+                        name: yyzpsq5071;
+                    save set: All;
+
+                        name: yyzscn2080;
+                    save set: All;
+
+                        name: yyzecc2010;
+                    save set: All;
+
+                        name: yyzmcl2061;
+                    save set: All;
+
+                        name: yyzdbs2012;
+                    save set: All;
+
+                        name: yyzeca2040;
+                    save set: All;
+
+                        name: YYZEBS2021;
+                    save set: All;
+
+                        name: YYZETL2003;
+                    save set: All;
+
+                        name: yyzsds5001;
+                    save set: All;
+
+                        name: yyzgpf2001;
+                    save set: All;
+
+                        name: yyzbck2063.ana.corp.aviva.com;
+                    save set: \
+"D:\\Program Files\\EMC NetWorker\\Management\\nmcdb_stage";
+
+                        name: yyzoem2021;
+                    save set: All;
+
+                        name: YYZSQL3031;
+                    save set: All;
+
+                        name: yyzpsq5072;
+                    save set: All;
+
+                        name: yyzecc7011;
+                    save set: All;
+
+                        name: yyzcms3003;
+                    save set: All;
+
+                        name: yyzdbs5017;
+                    save set: All;
+
+                        name: yyzsql5080;
+                    save set: All;
+
+                        name: YYZSQL5049;
+                    save set: All;
+
+                        name: yyzflx2001;
+                    save set: All;
+
+                        name: yyzmcl1016;
+                    save set: All;
+
+                        name: yyzsds2001;
+                    save set: All;
+
+                        name: yyzmdb2020;
+                    save set: All;
+
+                        name: yyzdbs2033;
+                    save set: All;
+
+                        name: YYZGWS7101;
+                    save set: All;
+
+                        name: yyzsds3001;
+                    save set: All;
+
+                        name: YYZEBS8021;
+                    save set: All;
+
+                        name: yyzhdp5006;
+                    save set: All;
+
+                        name: yyzqlk2001;
+                    save set: All;
+
+                        name: yyzadc1202;
+                    save set: All;
+
+                        name: yyzmdb7002;
+                    save set: All;
+
+                        name: YYZDBS3032;
+                    save set: All;
+
+                        name: yyzcpw2005;
+                    save set: All;
+
+                        name: YYZEBS8022;
+                    save set: All;
+
+                        name: yyzapp2085;
+                    save set: All;
+
+                        name: yyzcms3004;
+                    save set: All;
+
+                        name: YYZSQL7037;
+                    save set: All;
+
+                        name: yyzhdp4003;
+                    save set: All;
+
+                        name: yyzmcl2044;
+                    save set: All;
+
+                        name: yyzdbs1020.ana.corp.aviva.com;
+                    save set: All;
+
+                        name: yyzhdp5010;
+                    save set: All;
+
+                        name: choqstg1;
+                    save set: All;
+
+                        name: YYZSQL5036;
+                    save set: All;
+
+                        name: yyzmdb5011;
+                    save set: All;
+
+                        name: YYZSQL2068;
+                    save set: All;
+
+                        name: YYZSQL5027;
+                    save set: All;
+
+                        name: yyzgws7012;
+                    save set: All;
+
+                        name: YYZSQL5010;
+                    save set: All;
+
+                        name: YYZETL5011;
+                    save set: All;
+
+                        name: yyzsql2028;
+                    save set: All;
+
+                        name: yyzcdr2001;
+                    save set: All;
+
+                        name: yyzpsq3071;
+                    save set: All;
+
+                        name: yyzecc7010;
+                    save set: All;
+
+                        name: yyzcdr3001;
+                    save set: All;
+
+                        name: yyzhdp2006;
+                    save set: All;
+
+                        name: YYZETL4012;
+                    save set: All;
+
+                        name: YYZSQL3025;
+                    save set: All;
+
+                        name: yyzmdb2013;
+                    save set: All;
+
+                        name: yyzsql3080;
+                    save set: All;
+
+                        name: chodstg1;
+                    save set: All;
+
+                        name: YYZEBS3022;
+                    save set: All;
+
+                        name: yyzpsq4101;
+                    save set: All;
+
+                        name: YYZDBS3020;
+                    save set: All;
+
+                        name: yyzpsq7075;
+                    save set: All;
+
+                        name: yyzgws1002;
+                    save set: All;
+
+                        name: yyzdbs5020;
+                    save set: All;
+
+                        name: YYZSCN7018;
+                    save set: "F:\\", "D:\\", "E:\\";
+
+                        name: yyzpsq2002;
+                    save set: All;
+
+                        name: yyzetl5005;
+                    save set: All;
+
+                        name: YYZESB3020;
+                    save set: All;
+
+                        name: yyzgpf8001;
+                    save set: All;
+
+                        name: yyzmcl2080;
+                    save set: All;
+
+                        name: yyzpsq7072;
+                    save set: All;
+
+                        name: yyzgws1103;
+                    save set: All;
+
+                        name: yyzbck1022-311.ana.corp.aviva.com;
+                    save set: All;
+
+                        name: yyzgpf2002;
+                    save set: All;
+
+                        name: yyzdbs7121;
+                    save set: All;
+
+                        name: yyzdbs2020;
+                    save set: All;
+
+                        name: YYZSQL5041;
+                    save set: All;
+
+                        name: yyzdbs2123;
+                    save set: All;
+
+                        name: YYZMCL7019;
+                    save set: All;
+
+                        name: yyzdbs3011;
+                    save set: All;
+
+                        name: YYZCALDRNIM;
+                    save set: All;
+
+                        name: CHOQINFMQ1;
+                    save set: All;
+
+                        name: yyzgws7014;
+                    save set: All;
+
+                        name: yyzdtc1082;
+                    save set: "C:\\";
+
+                        name: yyzeca7040;
+                    save set: All;
+
+                        name: YYZSQL2070;
+                    save set: All;
+
+                        name: YYZMDM2021;
+                    save set: All;
+
+                        name: YYZETL5012;
+                    save set: All;
+
+                        name: yyzpsq2072;
+                    save set: All;
+
+                        name: YYZAPP2031;
+                    save set: All;
+
+                        name: yyzpsq2071;
+                    save set: All;
+
+                        name: yyzsql2053;
+                    save set: "S:\\", "C:\\", "F:\\", "D:\\", "E:\\", "G:\\";
+
+                        name: YYZSQL2071;
+                    save set: All;
+
+                        name: DBPRDGROUP;
+                    save set: "D:\\DB2_BACKUPS";
+
+                        name: YYZSQL6036;
+                    save set: All;
+
+                        name: yyzetl4002;
+                    save set: All;
+
+                        name: yyzsql7001;
+                    save set: All;
+
+                        name: yyzdbs5053;
+                    save set: All;
+
+                        name: yyzpsq4001;
+                    save set: All;
+
+                        name: yyzcpw2006;
+                    save set: All;
+
+                        name: YYZSQL7055;
+                    save set: All;
+
+                        name: yyzhdp4001;
+                    save set: All;
+
+                        name: YYZEBS5021;
+                    save set: All;
+
+                        name: yyzhdp2004;
+                    save set: All;
+
+                        name: yyzsql5031;
+                    save set: All;
+
+                        name: yyzsql5016;
+                    save set: All;
+
+                        name: YYZSQL5009;
+                    save set: All;
+
+                        name: yyzsql7002;
+                    save set: All;
+
+                        name: yyzdbs5021;
+                    save set: All;
+
+                        name: YYZDBS2101;
+                    save set: All;
+
+                        name: yyzpsp1202;
+                    save set: All;
+
+                        name: CHODINFMQ1;
+                    save set: All;
+
+                        name: YYZETL4011;
+                    save set: All;
+
+                        name: YYZESB2021;
+                    save set: All;
+
+                        name: yyzpsq5101;
+                    save set: All;
+
+                        name: YYZSQL2034;
+                    save set: All;
+
+                        name: YYZETL2004;
+                    save set: All;
+
+                        name: yyzshy2002;
+                    save set: All;
+
+                        name: yyzdbs5032;
+                    save set: All;
+
+                        name: YYZSQL5037;
+                    save set: All;
+
+                        name: yyzsas5011;
+                    save set: All;
+
+                        name: yyzhdp4002;
+                    save set: All;
+
+                        name: YYZSQL2045;
+                    save set: All;
+
+                        name: yyzmdb2011;
+                    save set: All;
+
+                        name: yyzhdp2005;
+                    save set: All;
+
+                        name: yyzeca2041;
+                    save set: All;
+
+                        name: yyzscn1016;
+                    save set: All;
+
+                        name: YYZSQL7036;
+                    save set: All;
+
+                        name: yyzdtc1016-BUR;
+                    save set: All;
+
+                        name: yyzmcn1082;
+                    save set: All;
+
+                        name: YYZSQL2036;
+                    save set: All;
+
+                        name: yyzcns1201;
+                    save set: All;
+
+                        name: yyzdbs7120;
+                    save set: All;
+
+                        name: YYZSQL2057;
+                    save set: All;
+
+                        name: YYZSQL2038;
+                    save set: All;
+
+                        name: yyzmcl2062;
+                    save set: All;
+
+                        name: YYZETL2011;
+                    save set: All;
+
+                        name: yyzmdb7001;
+                    save set: All;
+
+                        name: yyzeca6040;
+                    save set: All;
+
+                        name: yyzmcl2045;
+                    save set: All;
+
+                        name: YYZSHR3020;
+                    save set: All;
+
+                        name: YYZSQL2019;
+                    save set: All;
+
+                        name: YYZSQL2033;
+                    save set: All;
+
+                        name: yyzpsq2501;
+                    save set: All;
+
+                        name: YYZEBS2121;
+                    save set: All;
+
+                        name: CHOQINFMQ2;
+                    save set: All;
+
+                        name: yyzdbs2127;
+                    save set: All;
+
+                        name: yyzpsq4071;
+                    save set: All;
+
+                        name: YYZESB2020;
+                    save set: All;
+
+                        name: yyzsas5012;
+                    save set: All;
+
+                        name: yyzhdp2001;
+                    save set: All;
+
+                        name: yyzdbs2021;
+                    save set: All;
+
+                        name: yyzecc5011;
+                    save set: All;
+
+                        name: yyzpsq4072;
+                    save set: All;
+
+                        name: YYZSQL6037;
+                    save set: All;
+
+                        name: yyzpsq2201;
+                    save set: All;
+
+                        name: yyzrep3002;
+                    save set: All;
+
+                        name: YYZMCL7018;
+                    save set: All;
+
+                        name: chopinfmq1;
+                    save set: All;
+
+                        name: YYZSQL2055;
+                    save set: All;
+
+                        name: yyzhdp2007;
+                    save set: All;
+
+                        name: YYZDBS3021;
+                    save set: All;
+
+                        name: YYZSHR5020;
+                    save set: All;
+
+                        name: YYZSHR2021;
+                    save set: All;
+
+                        name: yyzdbs2032;
+                    save set: All;
+
+                        name: YYZEBS3021;
+                    save set: All;
+
+                        name: YYZSQL1031;
+                    save set: All;
+
+                        name: yyzpsq5001;
+                    save set: All;
+
+                        name: YYZETL2012;
+                    save set: All;
+
+                        name: yyzcpa2005;
+                    save set: All;
+
+                        name: YYZESB5020;
+                    save set: All;
+
+                        name: yyzdbs8125;
+                    save set: All;
+
+                        name: yyzgws7013;
+                    save set: All;
+
+                        name: yyzecc3010;
+                    save set: All;
+
+                        name: yyzmdb2012;
+                    save set: All;
+
+                        name: yyzcif2002;
+                    save set: /iccshare-dev, /iccshare-pnc, /iccshare-qa;
+
+                        name: yyzpsq7073;
+                    save set: All;
+
+                        name: yyzscn1082;
+                    save set: All;
+
+                        name: yyzsas5013;
+                    save set: All;
+
+                        name: yyzecc2011;
+                    save set: All;
+
+                        name: yyzecc5010;
+                    save set: All;
+
+                        name: yyzmcn2080;
+                    save set: All;
+
+                        name: yyzmcl1082;
+                    save set: All;
