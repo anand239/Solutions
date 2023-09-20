@@ -1,0 +1,16 @@
+{
+  "InputFile": "InputFile.csv",
+
+  "ReortingserverCommand_LX": "/etc/init.d/rs_rest-as stop",
+  "TelemetryServiceCommand_LX": "/opt/omni/bin/telemetry/dataprotector-telemetry-client-service.sh stop",
+  "dp_sh_path_LX": "/etc/profile.d/dp.sh",
+
+
+  "ReortingserverCommand_HPUX": "/etc/init.d/rs_rest-as stop",
+  "TelemetryServiceCommand_HPUX": "/opt/omni/bin/telemetry/dataprotector-telemetry-client-service.sh stop",
+  "dp_sh_path_HPUX": "/etc/profile.d/dp.sh",
+
+
+  "ReortingserverCommand_WIN": "sc.exe stop rs_rest-as",
+  "TelemetryServiceCommand_WIN": "sc.exe stop \"Data Protector Telemetry Client Service\""
+}

@@ -1,0 +1,5 @@
+ServerName,CredentialFilename,OsType
+win2k16,Cred1.xml,Windows
+192.168.223.140,Cred2.xml,NonWindows
+abcd,Cred2.xml,Windows
+192.168.123.131,Cred1.xml,NonWindows
