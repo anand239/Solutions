@@ -1,0 +1,10 @@
+{
+"InputFilePath" : "C:\\Users\\Input.csv",
+"Mail": {
+"SmtpServer": "smtp.svcs.hpe.com",
+"From": "From@dxc.com",
+"To": "To@dxc.com",
+"cc": "cc@dxc.com;cc@dxc.com",
+"Subject": "DSR Report"
+}
+}
