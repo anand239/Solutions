@@ -1,0 +1,73 @@
+
+**
+1. To check Capacity Status.
+
+sysadmin@gbdocsbkipx001# df -h
+
+Active Tier:
+Resource           Size GiB     Used GiB   Avail GiB   Use%   Cleanable GiB*
+----------------   --------   ----------   ---------   ----   --------------
+/data: pre-comp           -   15208573.0           -      -                -
+/data: post-comp   259211.3     244043.0     15168.3    94%          10034.9
+/ddvar                 29.4         13.7        14.2    49%                -
+/ddvar/core            31.4          0.1        29.6     0%                -
+----------------   --------   ----------   ---------   ----   --------------
+ * Estimated based on last cleaning of 2022/07/19 20:17:42.
+
+2. Command to check Serial Number.
+
+sysadmin@gbdocsbkipx001# system show serial
+Serial number: CKM00140100542
+
+3. Command to check OS version.
+
+sysadmin@gbdocsbkipx001# system show version
+Data Domain OS 7.3.0.10-675769
+
+4. Command to check current alerts.
+
+sysadmin@gbdocsbkipx001# alerts show current
+Id       Post Time                  Severity   Class        Object               Message
+------   ------------------------   --------   ----------   ------------------   ---------------------------------------------------------------------------
+p0-110   Wed Aug 25 03:37:10 2021   CRITICAL   Filesystem   FilesysType=2        EVT-SPACE-00004: Space usage in Data Collection has exceeded 90% threshold.
+m0-398   Wed Apr  6 20:02:45 2022   WARNING    Storage      Enclosure=9:Disk=6   EVT-STORAGE-00011: Disk has not been added to the system.
+------   ------------------------   --------   ----------   ------------------   ---------------------------------------------------------------------------
+There are 2 active alerts.
+
+5. Command to check failed disk or disk status on device.
+
+sysadmin@gbdocsbkipx001# disk show state
+Enclosure   Disk
+             1  2  3  4  5  6  7  8  9  10 11 12 13 14 15
+---------   ----------------------------------------------
+1            .  .  .
+2            .  .  .  .  .  .  .  .  .  .  .  .  .  s  .
+3            .  .  .  .  .  s  .  .  .  .  .  .  .  .  .
+4            .  .  .  .  .  .  .  .  .  .  .  s  .  .  .
+5            .  .  .  .  .  .  .  .  .  .  .  .  .  .  s
+6            .  .  .  .  .  .  .  .  .  .  .  .  .  .  s
+7            .  .  .  .  .  .  .  .  .  .  .  .  .  .  s
+8            .  .  .  .  .  .  .  .  .  .  .  .  .  .  s
+9            .  .  .  .  .  U  .  .  .  .  .  .  .  .  .
+10           .  .  .  .  .  .  .  .  .  s  .  .  .  .  .
+11           .  .  .  .  .  .  .  .  .  .  .  .  .  .  s
+---------   ----------------------------------------------
+
+Legend   State           Count
+------   -------------   -----
+.        In Use Disks    143
+s        Spare Disks     9
+U        Unknown Disks   1
+------   -------------   -----
+Total 153 disks
+
+6. Command to check Cleaning Status.
+
+sysadmin@gbdocsbkipx001# filesys clean status
+Cleaning finished at 2022/07/19 20:17:42.
+
+7. Command to check cleaning schedule.
+
+sysadmin@gbdocsbkipx001# filesys clean show sched
+Filesystem cleaning is scheduled to run "Sun, Tue, Fri" at "0600".
+sysadmin@gbdocsbkipx001#

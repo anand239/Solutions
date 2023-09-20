@@ -1,0 +1,40 @@
+{
+  "Info1": "### Change these Parameters Accordingly ###",
+
+  "Account": "Account name",
+  "BackupServer": "Server name",
+  "ReportPath": "F:\\BURAuto\\DD-HC\\Reports",
+  "OsType": "NonWindows",
+  "deleteFilesOlderThanInDays": 0,
+  "OSVersion": "Enabled",
+  "SerialNumber": "Enabled",
+  "CapacityStatus": "Enabled",
+  "CleaningSTatus": "Enabled",
+  "CleaningSchedule": "Enabled",
+  "DiskStatus": "Enabled",
+  "AlertStatus": "Enabled",
+  "Sendmail": "Yes",
+  "Mail": {
+    "Subject": "DD Health Check Report",
+    "SmtpServer": "smtp.svcs.hpe.com",
+    "Port": 25,
+    "From": "BUR Automation<do.not.reply@dxc.com>",
+    "To": "To Email-ID 1;To Email-ID 2",
+    "CC": "CC Email-ID 1;CC Email-ID 2"
+  },
+
+  "Info2": "### Do not Change these Parameters ###", 
+
+  "VersionCommand": "system show version",
+  "SerialNumberCommand": "system show serial",
+  "CapacityStatuscommand": "df -h",
+  "CleanStatusCommand": "filesys clean status",
+  "CleanScheduleCommand": "filesys clean show sched",
+  "DiskStatusCommand" : "disk show state",
+  "AlertStatusCommand" : "alerts show current",
+
+  "Technology": "BUR",
+  "BackupApplication": "DD",
+  "ReportType": "HC",
+  "CredentialFile": "cred.xml"
+}

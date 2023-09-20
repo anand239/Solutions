@@ -1,0 +1,5 @@
+2022/06/27-06:49:16.46787 skipped-hashes="5901" megabytes-recovered="6845" passes="33" elapsed-time="1576"
+2022/06/28-06:55:38.81291 skipped-hashes="6243" megabytes-recovered="6262" passes="31" elapsed-time="1499"
+2022/06/29-06:54:54.84176 skipped-hashes="6165" megabytes-recovered="7072" passes="34" elapsed-time="1561"
+2022/06/30-06:46:34.85328 skipped-hashes="6025" megabytes-recovered="6846" passes="40" elapsed-time="1493"
+2022/07/01-06:56:10.36754 skipped-hashes="5862" megabytes-recovered="8418" passes="28" elapsed-time="1567"

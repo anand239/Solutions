@@ -1,0 +1,9 @@
+Active Tier:
+Resource           Size GiB     Used GiB   Avail GiB   Use%   Cleanable GiB*
+----------------   --------   ----------   ---------   ----   --------------
+/data: pre-comp           -   14401764.0           -      -                -
+/data: post-comp   767357.1     434809.2    332547.8    57%          12293.7
+/ddvar                 27.6         22.8         3.3    87%                -
+/ddvar/core           338.6         49.5       271.9    15%                -
+----------------   --------   ----------   ---------   ----   --------------
+* Estimated based on last cleaning of 2022/06/29 01:02:24.

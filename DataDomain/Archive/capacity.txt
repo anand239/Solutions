@@ -1,0 +1,119 @@
+  DATE     AVAMAR NEW     #BU    DDR NEW     #BU    SCANNED       REMOVED     MINS PASS AVAMAR NET      CHG RATE
+========== ============= ==== ============= ==== ============= =============  ==== ==== ============= ==========
+2022-06-30        682 mb   10    4152855 mb 1097  422061123 mb      -6845 mb    24   40      -6163 mb      0.98%
+2022-07-01       1773 mb   10    1972407 mb  382  269136291 mb      -8417 mb    26   28      -6643 mb      0.73%
+================================================================================================================
+  1 DAY AVG      1228 mb   10    3062631 mb  739  345598707 mb      -7631 mb    25   34      -6403 mb      0.89%
+30 DAY AVG     25698 mb   13    3743014 mb 1077  439434855 mb      -7988 mb    25   32      17709 mb      0.86%
+60 DAY AVG     15121 mb   13    3861427 mb 1094  470702222 mb      -8228 mb    26   31       6893 mb      0.82%
+
+Top Change Rate Clients.  Total Data Added 6127719mb
+
+     NEW DATA % OF TOTAL CHGRATE TYPE CLIENT
+============= ========== ======= ====
+    552449 mb      9.02   1.16%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcdbiplbi01-scan
+    493918 mb      8.06   6.74%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Exchange/gbwokwpeem004.eu.ds.ov.finance
+    436593 mb      7.12   5.65%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Sharepoint/Prod/gbwokwpewbshp01.eu.ds.ov.finance
+    312273 mb      5.10   0.91%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs04.eu.ds.ov.finance
+    278532 mb      4.55   1.79%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs01.eu.ds.ov.finance
+    271860 mb      4.44   0.24%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcpidbcrt-scan
+    253056 mb      4.13  19.77%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwokwpeapshp01
+    244232 mb      3.99   1.86%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs02.eu.ds.ov.finance
+    239111 mb      3.90  18.68%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwokwpeapshp02
+    181108 mb      2.96   6.44%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs01.eu.ds.ov.finance
+    172327 mb      2.81   0.83%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/vNDMP/gbwokisilon01nfs.eu.ds.ov.finance
+    144536 mb      2.36   6.30%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcdbipl003.eu.ds.ov.finance
+    142165 mb      2.32   7.33%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs02.eu.ds.ov.finance
+    126605 mb      2.07   3.70%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Sharepoint/Prod/gbclovpeaspt043.eu.ds.ov.finance
+    108776 mb      1.78   1.24%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs03.eu.ds.ov.finance
+    101285 mb      1.65   1.58%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs04.eu.ds.ov.finance
+     98214 mb      1.60   0.53%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcdbipleur01-scan
+     92539 mb      1.51  12.05%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/SQL-Clusters/ABS-PROD/gbwokwpecv011.eu.ds.ov.finance
+     86960 mb      1.42   4.54%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwoklpimms12.eu.ds.ov.finance
+     74056 mb      1.21   4.13%  DDR /clients/gbdoccdbiml003.eu.ds.ov.finance
+     73217 mb      1.19   4.51%  DDR /clients/gbdoccdbiml004.eu.ds.ov.finance
+     65492 mb      1.07   0.87%  DDR /clients/gbdoccdbimlbi01-scan
+     64236 mb      1.05  17.16%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Sharepoint/Prod/gbwokwpecv042.eu.ds.ov.finance
+     63327 mb      1.03   1.03%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbgsw01.eu.ds.ov.finance
+     59807 mb      0.98   2.44%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwokwpeap016
+     58373 mb      0.95   6.42%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/SIT/gbdocwseasbsql01
+     56697 mb      0.93   1.72%  DDR /vNDMP/gbdocisilon01nfs.eu.ds.ov.finance
+     44491 mb      0.73   2.91%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs03.eu.ds.ov.finance
+     42974 mb      0.70   0.98%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs05.eu.ds.ov.finance
+     41090 mb      0.67   1.46%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedboem01.eu.ds.ov.finance
+     37690 mb      0.62   6.47%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/UAT/gbdocsdbiml011
+     37011 mb      0.60   0.10%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwoksapipm014.eu.ds.ov.finance
+     36872 mb      0.60   1.52%  DDR /clients/gbdoccdbimleur01-scan
+     31900 mb      0.52  12.31%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/SQL-Clusters/SHARED-2016-PROD/gbwokwpecv021.eu.ds.ov.finance
+     31889 mb      0.52   3.07%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/SIT/gbdocsdbill005
+     30420 mb      0.50   1.54%  DDR /clients/Oracle-Standalone/gbdoclmedbgsw04.eu.ds.ov.finance
+     27521 mb      0.45   0.41%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwokwpiap001
+     24211 mb      0.40   3.11%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/SIT/gbdocsdbill003
+     23769 mb      0.39   1.69%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwokwpesq003
+     23537 mb      0.38   0.36%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcdbiplsam01-scan
+     22119 mb      0.36   2.88%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwoksvaipm001
+     19178 mb      0.31   0.51%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs07.eu.ds.ov.finance
+     18723 mb      0.31   0.93%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/Oracle-Standalone/gbwoklpedbsrs07.eu.ds.ov.finance
+     18295 mb      0.30   2.76%  DDR /clients/Oracle-Standalone/gbdoclmedbsrs05.eu.ds.ov.finance
+     17872 mb      0.29   6.53%  DDR /clients/Sharepoint/PreProd/gbdocwmewbshp01.eu.ds.ov.finance
+     16880 mb      0.28   6.39%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/PreProd/gbdocwmeapshp01
+     15450 mb      0.25   3.87%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/PreProd/gbdocwmeapshp02
+     13187 mb      0.22   0.62%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwoksdbipm003
+     13092 mb      0.21   1.74%  DDR /gbdocapeesvsa01.eu.ds.ov.finance/VirtualMachines/PreProd/gbdocapeaplac01
+     11466 mb      0.19   0.39%  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/gbwokapeesvsa01.eu.ds.ov.finance/VirtualMachines/Prod/gbwoksapipl030
+
+
+Top File Count Clients. Total Files Added 2413350
+
+    NUM FILES % OF TOTAL    TYPE CLIENT
+============= ========== ==== ======
+       112273      4.65  DDR /clients/Oracle-Standalone/gbdoclredbsrs04.eu.ds.ov.finance
+       110142      4.56  DDR /clients/Oracle-Standalone/gbdoclredbsrs06.eu.ds.ov.finance
+       106248      4.40  DDR /clients/gbdoclsedb002.eu.ds.ov.finance
+       104794      4.34  DDR /clients/Oracle-Standalone/gbdoclmedbsrs04.eu.ds.ov.finance
+       103480      4.29  DDR /clients/Oracle-Standalone/gbdoclmedbsrs08.eu.ds.ov.finance
+       103345      4.28  DDR /clients/Oracle-Standalone/gbdoclredbsrs05.eu.ds.ov.finance
+       102493      4.25  DDR /vNDMP/gbdocisilon01nfs.eu.ds.ov.finance
+       101618      4.21  DDR /clients/Oracle-Standalone/gbdoclredbsrs02.eu.ds.ov.finance
+       101505      4.21  DDR /clients/Oracle-Standalone/gbdoclmedbsrs05.eu.ds.ov.finance
+       100671      4.17  DDR /clients/Oracle-Standalone/gbdoclmedbsrs07.eu.ds.ov.finance
+       100639      4.17  DDR /clients/Oracle-Standalone/gbdoclmedbsrs02.eu.ds.ov.finance
+        99794      4.14  DDR /clients/Oracle-Standalone/gbdoclmedbsrs06.eu.ds.ov.finance
+        99010      4.10  DDR /clients/gbdoclredbsrs07.eu.ds.ov.finance
+        97860      4.05  DDR /clients/Oracle-Standalone/gbdoclmedbsrs03.eu.ds.ov.finance
+        97560      4.04  DDR /clients/Oracle-Standalone/gbdoclmedbsrs01.eu.ds.ov.finance
+        96095      3.98  DDR /clients/Oracle-Standalone/gbdoclmedbgsw04.eu.ds.ov.finance
+        95095      3.94  DDR /clients/Oracle-Standalone/gbdoclredbsrs01.eu.ds.ov.finance
+        94668      3.92  DDR /clients/Oracle-Standalone/gbdoclredbsrs03.eu.ds.ov.finance
+        93187      3.86  DDR /clients/Oracle-Standalone/gbdoclmedbgsw02.eu.ds.ov.finance
+        39521      1.64  DDR /clients/gbdoccdbirl004.eu.ds.ov.finance
+        25939      1.07  DDR /clients/gbdoclridb02.eu.ds.ov.finance
+        25814      1.07  DDR /clients/gbdoccdbirl001.eu.ds.ov.finance
+        25625      1.06  DDR /clients/gbdoclrimms01.eu.ds.ov.finance
+        22800      0.94  DDR /clients/gbdoccdbiml001.eu.ds.ov.finance
+        22747      0.94  DDR /clients/SAP/SBX/gbdoclsedb001.eu.ds.ov.finance
+        22270      0.92  DDR /clients/gbdoccdbirl002.eu.ds.ov.finance
+        22108      0.92  DDR /clients/Oracle-Standalone/gbdoclredboem01.eu.ds.ov.finance
+        21581      0.89  DDR /clients/gbdoclridb01.eu.ds.ov.finance
+        21461      0.89  DDR /clients/gbdoclrimms02.eu.ds.ov.finance
+        20813      0.86  DDR /clients/gbdoccdbirl003.eu.ds.ov.finance
+        20278      0.84  DDR /clients/Test/Oracle/gbdoclmialfdb02.eu.ds.ov.finance
+        19890      0.82  DDR /clients/Test/Oracle/gbdoclmialfdb03.eu.ds.ov.finance
+        16391      0.68  DDR /clients/gbdoccdbiml003.eu.ds.ov.finance
+        13040      0.54  DDR /clients/gbdocxmidb01.eu.ds.ov.finance
+        13010      0.54  DDR /clients/gbdoclmimms07.eu.ds.ov.finance
+        12793      0.53  DDR /clients/gbdoclmidb03.eu.ds.ov.finance
+        10309      0.43  DDR /clients/gbdoclmidb04.eu.ds.ov.finance
+         8822      0.37  DDR /clients/gbdoccdbiml004.eu.ds.ov.finance
+         8511      0.35  DDR /clients/gbdoccdbiml002.eu.ds.ov.finance
+         5131      0.21  DDR /clients/Exchange/gbdocwpeem001.eu.ds.ov.finance
+         4956      0.21  DDR /clients/Exchange/gbdocwpeem002.eu.ds.ov.finance
+         4776      0.20  DDR /clients/Exchange/gbdocwpeem006.eu.ds.ov.finance
+         3633      0.15  DDR /clients/gbdocxmidb02.eu.ds.ov.finance
+         3544      0.15  DDR /clients/SAP/OPB/gbdocldedb001.eu.ds.ov.finance
+         3434      0.14  DDR /clients/Exchange/gbdocwpeem004.eu.ds.ov.finance
+         3411      0.14  DDR /REPLICATE/gbwokdbkipx001.eu.ds.ov.finance/clients/gbwokcdbiplbi01-scan
+         3361      0.14  DDR /clients/Exchange/gbdocwpeem005.eu.ds.ov.finance
+         3263      0.14  DDR /clients/Exchange/gbdocwpeem003.eu.ds.ov.finance
+         3201      0.13  DDR /clients/gbdoclsedbsam08.eu.ds.ov.finance
+         3105      0.13  DDR /clients/SAP/SMP/gbdoclredb002.eu.ds.ov.finance
