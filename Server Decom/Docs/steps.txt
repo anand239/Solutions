@@ -1,0 +1,20 @@
+lpv-sapwn01
+USername: zabdisable
+Password : temp01
+sudo su - gabagool
+
+
+1. send mail to business owner(SSH host)
+	command : cat /etc/motd
+
+3. Delete the host(gabagool)
+	command : /usr/local/zabbix-scripts/z-delete-host hostname 
+
+2. stop the agent(SSH host)
+	command : /sbin/service zabbix-agent stop
+		  /sbin/chkconfig zabbix-agent off
+
+4. Pre-check(SSH host)
+	command : mount -t nfs lps-nfs01:/IMH_Internal_Share   /IMH_Internal_Share
+		  cd /IMH_Internal_Share/scripts
+		  ./linuxprecheck.ksh

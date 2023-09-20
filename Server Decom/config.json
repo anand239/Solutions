@@ -1,0 +1,14 @@
+{
+"Server": "192.168.223.159",
+"PrivilegedUser": "gabagool",
+"HostnamesFile": "Hostnames.csv",
+"CredentialFile": "cred.xml",
+"SendMail": "Yes"
+"Mail": {
+"SmtpServer": "smptp.svcs.hpe.com",
+"From": "a.chintalapudi@dxc.com",
+"Subject" : "Server Decomission",
+"CC": "example@dxc.com;example2@dxc.com"
+}
+}
+
