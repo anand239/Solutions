@@ -1,0 +1,190 @@
+# This file contains for every data-/barlist values on which the EWM call generation is based. 
+# You can adopt these values if necessary. 
+#
+# Please use "prioReader --out STDOUT" to check your changes !
+# 
+# Syntax: 
+# 
+# data-/barlistname 1stColumn 2ndColumn 3rdColumn 4thColumn 5thColumn 6thColumn(Y/N) 7thColumn 8thColumn 9thColumn # 
+# 
+# where: 
+# 
+# 1stColumn = number of consequent non-completed backups which generate an OVO event with severity "normal" 
+# 2ndColumn = number of consequent non-completed backups which generate an OVO event with severity "warning" 
+# 3rdColumn = number of consequent non-completed backups which generate an OVO event with severity "minor" 
+# 4thColumn = number of consequent non-completed backups which generate an OVO event with severity "major" 
+# 5thColumn = number of consequent non-completed backups which generate an OVO event with severity "critical" (in backup environment only at exception) 
+# 6thColumn = Y means the OVO event severity will be "normal" when all objects completed even though the status of the backup is non-completed; N means behaviour as normal 
+# 7thColumn = period in days in which the data-/barlist must have been started at least once 
+# 8thColumn = maintainance date until OVO event generation is suppressed (at maximum 30 days in future);
+# format: DD.MM.YY[YY]-hh:mm:ss or MM/DD/YY[YY]-hh:mm:ss
+# 9thColumn = ESL Flag for Restart-Option (must be 1 Character). If this value = N or O or A, the entries will be written into MONREPLOG
+#  else the entries will be written into ITOLOG.
+# 10thColumn = identifier which will be looked up in exceptions.conf (for session-report parsing) example: BRT [optional]
+# # = after the hash please leave your name after you changed something 
+###  /etc/opt/omni/server/barlists/lotus/ :
+SKF_Domino_W1348                       1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_W1349                       1    2    3    4   5   Y   3   30.06.22   Y   #
+SKF_Domino_W1349_Trans_log             1    2    3    4   5   Y   1   0   Y   #
+SKF_Domino_W1350                       1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_W1351                       1    2    3    4   5   Y   3   30.06.22   Y   #
+SKF_Domino_W1351_Trans_log             1    2    3    4   5   Y   1   0   Y   #
+SKF_Domino_KOPSRV02                    1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_KOPSRV06                    1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_KOPSRV05                    1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_W1357                       1    2    3    4   5   Y   3   30.06.22   Y   #
+SKF_Domino_W1359                       1    2    3    4   5   Y   3   05.07.22   Y   #
+SKF_Domino_W1356                       1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_W1358                       1    2    3    4   5   Y   3   0   Y   #
+SKF_Domino_KOPSRV06_Trans_log          1    2    3    4   5   Y   1   04.04.22   Y   #
+SKF_Domino_W1357_Trans_log             1    2    3    4   5   Y   1   0   Y   #
+SKF_Domino_W1359_Trans_log             1    2    3    4   5   Y   1   05.07.22   Y   #
+
+###  /etc/opt/omni/server/barlists/mssql/ :
+SKF_SQL_CL018SQL01_MSS0054_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL018SQL01_MSS0054_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+SKF_SQL_CL018SQL03_MSS0056_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL018SQL03_MSS0056_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+SKF_SQL_CL018SQL07_MSS0060_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL018SQL07_MSS0060_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+SKF_SQL_CL018SQL14_MSS0067_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL018SQL14_MSS0067_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+SKF_SQL_CL019SQL07_MSS0060_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL019SQL07_MSS0060_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+SKF_SQL_CL019SQL14_MSS0067_ON                   1    2    3    4   5   Y   3   0   Y   #
+SKF_SQL_CL019SQL14_MSS0067_ON_LOGS              1    2    3    4   5   Y   1   0   Y   #
+
+###  /etc/opt/omni/server/barlists/oracle8/ :
+AUTOSYS_ORACLE_USSASAUTP001_SAPASYS_ARCH        1    2    3    4   5   Y   1   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTP001_SAPASYS_DB          1    2    3    4   5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTP001_SAPWCC_ARCH         1    2    3    4   5   Y   1   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTP001_SAPWCC_DB           1    2    3    4   5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTP002_SAPASYS_ARCH        1    2    3    4   5   Y   1   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTQ001_SAQASYS_DB          1    2    3    4   5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTQ001_SAQWCC_DB           1    2    3    4   5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTQ002_SAQASYS_DB          1    2    3    4   5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTQ002_SAQWCC_DB           1    2    3    4   5   Y   3   13.07.22   Y   #
+
+###  /etc/opt/omni/server/datalists/ :
+ABCR_OSFS_WIN_FUL_WEY_ON               1    2    3    4   5   Y  14   0   Y  _FSFILTER  #
+AUTOSYS_FS_LX_1_ON_0200                1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+AUTOSYS_FS_LX_1_ON_0300                1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+JABIL_WIN__01_DAILY_2200               1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+MCQ_FS_WIN_1_ON_0500                   1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+MONDELEZ_FS_WIN_04_ON_2000             1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_CLUSTER_1_ON                    1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_WIN_10_ON_2130                  1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_WIN_10_ON_2300                  1    2    3    4   5   Y   3   03.07.22   Y  _FSFILTER  #
+SKF_FS_WIN_12_ON_2100                  1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+SKF_FS_WIN_1_ON_2100                   1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_WIN_2_ON_2200                   1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_WIN_4_ON_2300                   1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+SKF_FS_WIN_6_ON_2200                   1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+SKF_FS_WIN_8_ON_2230                   1    2    3    4   5   Y   3   0   Y  _FSFILTER  #
+SKF_FS_WIN_9_ON_2200                   1    2    3    4   5   Y   3   13.07.22   Y  _FSFILTER  #
+SKF_FS_WIN_13_ON_2100                  1    2    3    4   5   Y   3   03.07.22   Y  _FSFILTER  #
+STORAGE_OSFS_FUL_WEY_GRP001            1    2    3    4   5   Y  14   0   Y  _FSFILTER  #
+USAL_SESM_FUL_DLY_ON                   1    2    3    4   5   Y   7   0   Y  _FSFILTER  #
+USAL_SESM_FUL_WEY_ON                   1    2    3    4   5   Y   7   0   Y  _FSFILTER  #
+Adhoc_usdca079                         1    2    3    4   5   Y   7   0   N  _FSFILTER  #
+USALSDP001_IDB_ON_1200                          1    2    3    4    5   Y   1   30.07.22   Y   _FSFILTER  #
+USALSDP001_UX_FS_OFF_0900                       1    2    3    5   10   N   3   30.07.22   Y   _FSFILTER  #
+USALSDP001_IDB_OFF_0700                         1    2    3    4    5   Y   1   30.07.22   Y   _FSFILTER  #
+USALSDP001_UX_FS_ON_1400                        1    2    3    5   10   N   3   30.07.22   Y   _FSFILTER  #
+
+AUTOSYS_ORACLE_USSASAUTP002_SAPWCC_ARCH         1    2    3    4    5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTP002_SAPWCC_DB           1    2    3    4    5   Y   7   13.07.22   Y   # default
+AUTOSYS_ORACLE_USSASAUTP002_SAPASYS_DB          1    2    3    4    5   Y   7   13.07.22   Y   # default
+AUTOSYS_ORACLE_USSASAUTQ001_SAQWCC_ARCH         1    2    3    4    5   Y   3   13.07.22   Y   #
+AUTOSYS_ORACLE_USSASAUTQ001_SAQASYS_ARCH        1    2    3    4    5   Y   3   13.07.22   Y   #
+
+SKF_Domino_W1358_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1349_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1349_Trans_log_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1348_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1351_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1350_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1357_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1359_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1356_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_KOPSRV02_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_KOPSRV06_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_KOPSRV05_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_Domino_W1351_Trans_log_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     #
+
+SKF_SQL_CL018SQL01_MSS0054_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_SQL_CL018SQL03_MSS0056_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_SQL_CL018SQL07_MSS0060_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_SQL_CL018SQL14_MSS0067_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_SQL_CL019SQL07_MSS0060_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+SKF_SQL_CL019SQL14_MSS0067_ON_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     #
+
+USAL_SESM_FUL_MNTH_ON                  1    2    3    4   5   Y  35   11.04.19   Y  _FSFILTER  #
+ABCR_OSFS_WIN_FUL_MNTH_ON              1    2    3    4   5   Y  35   30.03.21   Y  _FSFILTER  #
+AUTOSYS_FS_LX_1_ON_0200_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+AUTOSYS_FS_LX_1_ON_0300_Monthly     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_10_OFF_2130_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_10_OFF_2300_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_1_OFF_2100_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_12_ON_2100_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_2_OFF_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_13_OFF_2100_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_9_OFF_2200_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_8_OFF_2230_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_6_OFF_2200_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_4_ON_2300_MONTHLY     1     2     3     4     5     Y     35     02.08.22     Y     _FSFILTER     #
+
+SKF_Domino_W1348_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1349_Trans_log_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1349_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1350_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1359_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1356_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1358_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1357_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_KOPSRV06_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_KOPSRV02_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_KOPSRV05_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1351_Trans_log_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+SKF_Domino_W1351_Yearly     1     2     3     4     5     Y     367     02.08.22     Y     #
+
+SKF_SQL_CL018SQL14_MSS0067_ON_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     #
+
+SKF_FS_WIN_8_OFF_2230_YEARLY     1     2     3     4     5     y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_4_ON_2300_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_6_OFF_2200_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_9_OFF_2200_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_13_OFF_2100_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_12_ON_2100_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_10_OFF_2130_YEARLY     1     2     3     4     5     Y     367     02.08.22     Y     _FSFILTER     #
+
+###  /Added/Automagically/ :
+SKF_FS_WIN_12_ON_2100_WR               1    2    3    5   10   N   3   0   Y   _FSFILTER  #
+SKF_FS_WIN_12_ON_2100_MONTHLY_WR     1     2     3     5     10     N     35     02.08.22     Y     _FSFILTER     #
+AUTOSYS_ORACLE_USSASAUTQ001_SAQASYS_ONSITE_DB    1    2    3    4    5   Y   7   0   Y  # default
+AUTOSYS_ORACLE_USSASAUTQ001_SAQASYS_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+AUTOSYS_ORACLE_USSASAUTQ001_SAQWCC_ONSITE_DB    1    2    3    4    5   Y   7   0   Y   # default
+AUTOSYS_ORACLE_USSASAUTQ001_SAQWCC_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+AUTOSYS_ORACLE_USSASAUTQ002_SAQASYS_ONSITE_DB    1    2    3    4    5   Y   7   13.07.22   Y   # default
+AUTOSYS_ORACLE_USSASAUTQ002_SAQWCC_ONSITE_DB    1    2    3    4    5   Y   7   13.07.22   Y   # default
+SKF_FS_WIN_9_OFF_2200_YEARLY_WR     1     2     3     5     10     N     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_9_OFF_2200_MONTHLY_WR     1     2     3     5     10     N     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_9_ON_2200_WR                1    2    3    5   10   N   3   29.08.21   Y   _FSFILTER  #
+AUTOSYS_ORACLE_USSASAUTP001_SAPASYS_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+AUTOSYS_ORACLE_USSASAUTP001_SAPASYS_ONSITE_DB    1    2    3    4    5   Y   7   0   Y   # default
+AUTOSYS_ORACLE_USSASAUTP001_SAPWCC_ONSITE_DB    1    2    3    4    5   Y   7   0   Y   # default
+AUTOSYS_ORACLE_USSASAUTP002_SAPWCC_ONSITE_DB    1    2    3    4    5   Y   7   0   Y   # default
+AUTOSYS_ORACLE_USSASAUTP002_SAPASYS_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+AUTOSYS_ORACLE_USSASAUTP002_SAPASYS_ONSITE_DB    1    2    3    4    5   Y   7   0   Y   # default
+AUTOSYS_ORACLE_USSASAUTP001_SAPWCC_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+AUTOSYS_ORACLE_USSASAUTP002_SAPWCC_ONSITE_ARCH    1    2    3    4    5   Y   3   0   Y   #
+USALSDP001_HYH_FS_MCF_BKP_ADHOC     1     2     3     5     10     N     3     02.08.22     Y     _FSFILTER     #
+Domino_KOPSRV06_ADHOC     1     2     3     4     5     Y     7     02.08.22     Y     #     default
+Domino_KOPSRV06_incr_ADHOC     1     2     3     4     5     Y     7     02.08.22     Y     #     default
+SKF_TEST_ADHOC     1     2     3     4     5     Y     7     02.08.22     Y     #     default
+SKF_FS_WIN_4_ON_2300_YEARLY_WR     1     2     3     5     10     N     367     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_4_ON_2300_MONTHLY_WR     1     2     3     5     10     N     35     02.08.22     Y     _FSFILTER     #
+SKF_FS_WIN_4_ON_2300_WR                1    2    3    5   10   N   3   0   Y   _FSFILTER  #
+SKF_FS_WIN_13_ON_2100_w1359            1    2    3    5   10   N   3   13.07.22   Y   _FSFILTER  #
+SKF_FS_WIN_6_OFF_2200_MONTHLY_WR     1     2     3     5     10     N     35     02.08.22     Y     #
+SKF_FS_WIN_6_ON_2200_WR                1    2    3    5   10   N   3   0   Y   #

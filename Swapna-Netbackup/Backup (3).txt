@@ -1,0 +1,45 @@
+#!/bin/bash
+
+/usr/openv/netbackup/bin/admincmd/bperror -backstat -s info -hoursago 24 > /tmp/errors.out
+
+cat /tmp/errors.out | awk '{print $6,$12,$14,$7,$16,$19,$5}' | while read output;
+do
+ JobID=$(echo $output | awk '{print $1}')
+ ClientName=$(echo $output | awk '{print $2}')
+ Policy=$(echo $output | grep -vE 'Agentless' | awk '{print $3}')
+ ParentJob=$(echo $output | awk '{print $4}')
+ Schedule=$(echo $output | grep -vE 'Transaction-Log-Gold' | awk '{print $5}') 
+ Status=$(echo $output | awk '{print $6}' | grep -e '13\|1\|196\|50\|24')
+ MediaServer=$(echo $output | awk '{print $7}')
+
+ if [ $Status ] ;
+ then
+  echo " $Status is the error code which needs to be restarted"
+ if [ "$Schedule" -o "$Policy" ];
+ then
+  echo "The policy available is $Policy"
+  echo "The $Schedule schedule is used for this $Status error code"
+  if [ "$ParentJob" != "-1" ];
+  then
+  Attempts=`/usr/openv/netbackup/bin/admincmd/bpdbjobs -all_columns -jobid $JobID | awk -F , -v OFS='\t' 'NR == 1 {print $13}'`
+  echo $Attempts
+    if [ "$Attempts" -eq "3" ];
+    then
+    echo "Restarting the backup Job!" 
+    Restart=`/usr/openv/netbackup/bin/admincmd/bpdpjobs -restart $JobID`
+    echo $Restart
+    else
+    echo "The backup job is already restarted and this is the $Attempts attempts!"
+    fi
+  else
+   echo "There is no parent process to restart the backup job"
+  fi
+else
+echo "There is no suitable policy or schedule are available for this error code $Status"
+fi
+else
+ echo " There is no specific error codes"
+ fi
+done
+
+ 

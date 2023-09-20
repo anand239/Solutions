@@ -1,0 +1,118 @@
+# This file contains for every data-/barlist values on which the EWM call generation is based. 
+# You can adopt these values if necessary. 
+#
+# Please use "prioReader --out STDOUT" to check your changes !
+# 
+# Syntax: 
+# 
+# data-/barlistname 1stColumn 2ndColumn 3rdColumn 4thColumn 5thColumn 6thColumn(Y/N) 7thColumn 8thColumn 9thColumn # 
+# 
+# where: 
+# 
+# 1stColumn = number of consequent non-completed backups which generate an OVO event with severity "normal" 
+# 2ndColumn = number of consequent non-completed backups which generate an OVO event with severity "warning" 
+# 3rdColumn = number of consequent non-completed backups which generate an OVO event with severity "minor" 
+# 4thColumn = number of consequent non-completed backups which generate an OVO event with severity "major" 
+# 5thColumn = number of consequent non-completed backups which generate an OVO event with severity "critical" (in backup environment only at exception) 
+# 6thColumn = Y means the OVO event severity will be "normal" when all objects completed even though the status of the backup is non-completed; N means behaviour as normal 
+# 7thColumn = period in days in which the data-/barlist must have been started at least once 
+# 8thColumn = maintainance date until OVO event generation is suppressed (at maximum 30 days in future);
+# format: DD.MM.YY[YY]-hh:mm:ss or MM/DD/YY[YY]-hh:mm:ss
+# 9thColumn = ESL Flag for Restart-Option (must be 1 Character). If this value = N or O or A, the entries will be written into MONREPLOG
+#  else the entries will be written into ITOLOG.
+# 10thColumn = identifier which will be looked up in exceptions.conf (for session-report parsing) example: BRT [optional]
+# # = after the hash please leave your name after you changed something 
+#
+
+###  /etc/opt/omni/server/barlists/idb/ :
+USPLSDP016_IDB_DAILY_OFF_0800          1    2    3    4    5   Y   1   30.06.22   Y   #
+USPLSDP016_IDB_DAILY_ON                1    2    3    4    5   Y   1   30.06.22   Y   #
+
+###  /etc/opt/omni/server/barlists/veagent/ :
+
+APLL_VADP_USDC1VCTMSWP01V_OFF_0000     1    2    3    4    5   Y   1   13.07.22   Y   # default
+APLL_VADP_USDC1VCTMSWP01V_OFF_0000_MONTHLY    1    2    3    4    5   Y  35  13.07.22   Y   #
+APLL_VADP_USDC1VCTMSWP01V_OFF_0100     1    2    3    4    5   Y   1   17.10.20   Y   # default
+APLL_VADP_USDC1VCTMSWP01V_OFF_0100_MONTHLY    1    2    3    4    5   Y  35   30.06.22   Y   #
+APLL_VADP_USDC1VCTMSWP01V_OFF_0200     1    2    3    4    5   Y   1   13.07.22   Y   # default
+APLL_VADP_USDC1VCTMSWP01V_OFF_0200_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   #
+
+###  /etc/opt/omni/server/datalists/ :
+
+ADHOC_AU-C00513278                     1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_LNX_OFF_15_0300                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_LNX_OFF_15_0300_MONTHLY        1    2    3    4    5   Y  35   04.06.22   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_10_2200                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_10_2200_MONTHLY        1    2    3    4    5   Y  35   0   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_13_0100                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_13_0100_MONTHLY        1    2    3    4    5   Y  35   04.06.22   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_14_0200                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_14_0200_MONTHLY        1    2    3    4    5   Y  35   04.06.22   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_16_0400                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_16_0400_MONTHLY        1    2    3    4    5   Y  35   04.06.22   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_18_1800                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_18_1800_MONTHLY        1    2    3    4    5   Y  35   0   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_21_0500                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_21_0500_MONTHLY        1    2    3    4    5   Y  35   02.07.22   Y   _FSFILTER  #
+APLL_FS_WIN_OFF_24_0500                1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_FS_WIN_OFF_24_0500_MONTHLY        1    2    3    4    5   Y  35   0   Y   _FSFILTER  #
+APLL_NDMP_USDC1NANAST1A_DAILY          1    2    3    4    5   Y   1   0   Y   #
+APLL_NDMP_USDC1NANAST1A_MONTHLY        1    2    3    4    5   Y  35   0   Y   #
+APLL_NDMP_USDC1NANAST1B_DAILY          1    2    3    4    5   Y   1   0   Y   #
+APLL_NDMP_USDC1NANAST1B_MONTHLY        1    2    3    4    5   Y  35   0   Y   #
+Adhoc_AU-C00511358_usdc1infmsbk01p     1    2    3    4    5   Y   1   0   Y   # default
+RCU_FS_LX_01_ON_1900                   1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+USPLSDP016_FS_OFF_0900                 1    2    3    4    5   Y   1   30.06.22   Y   _FSFILTER  # default
+USPLSDP016_FS_ON_1300                  1    2    3    4    5   Y   1   30.06.22   Y   _FSFILTER  # default
+###  /Added/Automagically/ :
+APLL_FS_ACS123_WIN_OFF_13_1900         1    2    3    4    5   Y   1   13.07.22   Y   _FSFILTER  # default
+APLL_FS_ACS123_LX_OFF_10_2000_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   _FSFILTER  #
+APLL_ORACLE_USTXACSDBLP02P_ACSPRD_DB_ON_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   #
+APLL_FS_ACS123_LX_OFF_12_2000_DATADUMP_MONTHLY    1    2    3    4    5   Y  35   05.07.22   Y   _FSFILTER  #
+APLL_FS_ACS123_WIN_OFF_13_1900_MONTHLY    1    2    3    4    5   Y  35   02.07.22   Y   _FSFILTER  #
+APLL_ORACLE_USTXACSDBLP02P_ACSPRD_ARCH    1    2    3    4    5   Y   1   13.07.22   Y   #
+APLL_ORACLE_USTXACSDBLP02P_ACSPRD_DB_ON    1    2    3    4    5   Y   1   13.07.22   Y   #
+APLL_FS_ACS123_LX_OFF_11_2200_MONTHLY    1    2    3    4    5   Y  35   02.07.22   Y   _FSFILTER  #
+APLL_FS_ACS123_LX_OFF_12_2000_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   _FSFILTER  #
+RCU_FS_LX_02_ON_1930                   1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_ORACLE_USTXACSDBLP01P_ACSPRD_DB_ON    1    2    3    4    5   Y   1   13.07.22   Y   #
+APLL_ORACLE_USTXACSDBLP01P_ACSPRD_ARCH    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCU522_RCUTMO_ON_1930_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCU521_RCUNMO_1_ON_2300    1    2    3    4    5   Y   1   0   Y   # default
+RCU_ORA_USPLSRCU521_RCUNPM_ON_2330_LOG    1    2    3    4    5   Y   1   0   Y   #
+RCU_ORA_USPLSRCU522_RCUNPM_ON_2330     1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_ORA_USPLSRCU521_RCUNMO_1_ON_0500_LOG    1    2    3    4    5   Y   1   0   Y   #
+RCU_ORA_USPLSRCU522_RCUNMO_ON_0530_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCU522_RCUNRM_ON_1915     1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_FS_LX_02_ON_2000                   1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+RCU_ORA_USPLSRCU522_RCUNRM_ON_1915_LOG    1    2    3    4    5   Y   1   13.07.22    Y   #
+RCU_ORA_USPLSRCU521_RCUNPM_ON_2330     1    2    3    4    5   Y   1   0   Y   # default
+RCU_ORA_USPLSRCU522_RCUTMO_ON_1930     1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_ORA_USPLSRCU522_RCUNPM_ON_2330_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCU521_RCUNRM_ON_1915_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCU522_RCUNMO_ON_2330     1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_ORA_USPLSRCU521_RCUNRM_ON_1915     1    2    3    4    5   Y   1   13.07.22   Y   # default
+APLL_NDMP_USDC1NANAST1B_WEEKLY         1    2    3    4    5   Y   7   17.07.20   Y   #
+APLL_NDMP_USDC1NANAST1B_WEEKLY_VTL     1    2    3    4    5   Y   7   17.07.20   Y   #
+APLL_NDMP_USDC1NANAST1A_WEEKLY         1    2    3    4    5   Y   7   17.07.20   Y   #
+APLL_NDMP_USDC1NANAST1A_WEEKLY_VTL     1    2    3    4    5   Y   7   17.07.20   Y   #
+RCU_ORA_USPLSRCSH557_RCSHPRM_ON_2230_LOG    1    2    3    4    5   Y   1   0   Y   #
+RCU_ORA_USPLSRCSH557_RCSHPRM_ON_2230    1    2    3    4    5   Y   1   0   Y   # default
+RCU_ORA_USPLSRCSH558_RCSHMOR_ON_2130_LOG    1    2    3    4    5   Y   1   0   Y   #
+RCU_ORA_USPLSRCSH558_RCSHMOR_ON_2130    1    2    3    4    5   Y   1   0   Y   # default
+APLL_FS_ACS123_LX_USTXACSAPLP04v_VAR_OFF_11_2200_MONTHLY    1    2    3    4    5   Y  35   05.07.22   Y   _FSFILTER  #
+APLL_FS_ACS123_LX_USTXACSAPLP01v_VAR_OFF_12_2000_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   _FSFILTER  #
+RCU_ORA_USPLSRCSH557_RCUPPM_ON_2130_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCSH558_RCUPPM_ON_2130_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCSH557_RCUPMO_ON_2330_LOG    1    2    3    4    5   Y   1   13.07.22   Y   #
+RCU_ORA_USPLSRCSH557_RCUPPM_ON_2130    1    2    3    4    5   Y   1  13.07.22   Y   # 
+RCU_ORA_USPLSRCSH557_RCUPMO_ON_2330    1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_ORA_USPLSRCSH558_RCUPMO_ON_2330    1    2    3    4    5   Y   1   0   Y   # default
+RCU_ORA_USPLSRCSH558_RCUPMO_ON_2330_LOG    1    2    3    4    5   Y   1   0   Y   #
+APLL_VADP_USDC1VCTMSWP01V_OFF_0300     1    2    3    4    5   Y   1   13.07.22   Y   # default
+RCU_ORA_USPLSRCSH558_RCUPPM_ON_2130    1    2    3    4    5   Y   1   13.07.22   Y   # default
+GE_FS_WIN_01_ON_2200                   1    2    3    4    5   Y   1   0   Y   _FSFILTER  # default
+APLL_ORACLE_USTXACSDBLP01P_ACSPRD_DB_ON_MONTHLY    1    2    3    4    5   Y  35   13.07.22   Y   #
+APLL_FS_LNX_USDC1DLKAPLP02V_ADHOC      1    2    3    4    5   Y   1   13.07.22   Y   _FSFILTER  # default
+APLL_VADP_USDC1VCTMSWP01V_OFF_0100_ADHOC    1    2    3    4    5   Y   1   0   Y   # default
+APLL_VADP_USDC1VCTMSWP01V_D1DAL713_OFF_0100    1    2    3    4    5   Y   1   0   Y   # default

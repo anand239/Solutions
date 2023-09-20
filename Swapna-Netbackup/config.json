@@ -1,0 +1,16 @@
+{
+  "BackupServer": "mccmrkburp01.molsoncoors.com",
+  "ReportPath": "C:\\NBUReports",
+  "ErrorCodes": [0,1,50,150,191],
+  "Sendmail": "Yes",
+  "Mail": {
+    "Subject": "NetBackup Error Report",
+    "SmtpServer": "smtp.svcs.hpe.com",
+    "From": "NBU Automation<do.not.reply@dxc.com>",
+    "To": "ToEmail@dxc.com;ToEmail@dxc.com",
+    "CC": "CC@dxc.com"
+  },
+
+  "CredentialFile": "cred.xml",
+  "NBUErrorCommand": "/usr/openv/netbackup/bin/admincmd/bperror -backstat -s info -hoursago 24"
+}
