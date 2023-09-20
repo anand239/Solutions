@@ -1,0 +1,52 @@
+{
+  "#Info 1": "All or YYYY_MM or Days or Blank",
+  "ReportDays": "YYYY_MM",
+  "DownloadFromOutLook": "No",
+  "mailbox": "a.chintalapudi@dxc.com",
+  "mailLocation": "BUR_HC_DP",
+  "deleteFilesOlderThanInDays": 0,
+  "senderMailAddress": ["BUR Automation <do.not.reply@dxc.com>"],
+  "BSRFilePath": "C:\\BURAuto\\RPT\\Server1\\BSR_Reports", 
+  "ReportPath" : "C:\\BURAuto\\RPT\\Dashboard\\RPT_Dashboard",
+  "SendEmail": "Yes",
+  "#Info 2": "Choose which reports needs to be generated"
+  "GenerateReport": {
+    "AccountLevelSummaryReport": "Yes",
+    "BackupServerLevelSummaryReport": "Yes",
+    "BSRSummaryReport": "Yes",
+    "SizeSummaryReport": "Yes",
+    "MonthlySummaryReport": "yes",
+    "BSRReport": "Yes",
+    "SizeReport": "Yes",
+    "DurationReport": "Yes",
+    "ClientCountReport": "Yes",
+    "JobCountReport": "Yes",
+    "JobCountEachClientReport": "Yes",
+    "ContinuousFailures": "Yes"
+  },
+  "SendReports": {
+  "#Info 3": "Choose which reports needs to be sent via mail if ReportDays is ALL",
+  "Master-BKP_Report_All_html": "No",
+  "Summary-BKP_Report_All_html": "No",
+  "Calendar-BKP_Report_All_html": "No",
+  "Calendar-BKP_BSR_Report_All_html": "No",
+  "Consolidated-BKP_Report_All_html": "No",
+  "Consolidated-BKP_Report_All_csv": "No",
+  
+  "#Info 4": "Choose which reports needs to be sent via mail",
+  "Master-BKP_Report_YYYY_MM_html": "No",
+  "Summary-BKP_Report_YYYY_MM_html": "Yes",
+  "Calendar-BKP_Report_YYYY_MM_html": "Yes",
+  "Calendar-BKP_BSR_Report_YYYY_MM_html": "Yes",
+  "Consolidated-BKP_Report_YYYY_MM_html": "Yes",
+  "Consolidated-BKP_Report_YYYY_MM_csv": "Yes"
+  },
+  
+  "Mail": {
+  "Subject": "BUR_RPT_Reports",
+  "SmtpServer": "smtp.svcs.hpe.com",
+  "From": "BUR Automation<do.not.reply@dxc.com>",
+  "To": "a.chintalapudi@dxc.com",
+  "CC": "a.chintalapudi@dxc.com"
+  }
+}

@@ -1,0 +1,18 @@
+{
+"ReportDays": "ALL",
+"DownloadedFilesfolder": "tmpfiles",
+  "DownloadFromOutLook": "No",
+  "mailbox": "a.chintalapudi@dxc.com",
+  "mailLocation": "BUR_HC_DP",
+  "senderMailAddress": ["BUR Automation <do.not.reply@dxc.com>","CHINTALAPUDI, ANAND VARDHAN <a.chintalapudi@dxc.com>","BUR Automation <jse@campbellsoup.com>"],
+"ReportPath" : "C:\\Users\\achintalapud\\OneDrive - DXC Production\\Documents\\UCMS\\DP\\DP_Reporting\\Testing\\Reports",
+"SendEmail": "No",
+"deleteFilesOlderThanInDays": 7,
+"Mail": {
+"Subject": "BUR_HC_Test_Reports",
+"SmtpServer": "smtp.svcs.hpe.com",
+"From": "BUR Automation<do.not.reply@dxc.com>",
+"To": "venkata.paladugu@dxc.com",
+"CC": "a.chintalapudi@dxc.com;veena-s.navali@dxc.com"
+}
+}
