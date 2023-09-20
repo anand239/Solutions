@@ -1,0 +1,20 @@
+**************************************************************************
+UCMS  ID:	39152
+Version:	1
+Submitter's Email:	bspoorthi@dxc.com
+Submitter's Name:	Spoorthi
+Script Contact/Owner Name: Anand Vardhan	
+Script Contact/Owner Email: a.chintalapudi@dxc.com
+Developer's Email:  a.chintalapudi@dxc.com
+Platform:	Backup
+Operating System(s):	Windows 2008   /   Windows 2012   /   Windows 2016   /   Windows 2019
+Type:	PowerShell
+Integrations:	-
+Makes Changes To Server?	No
+Folder Structure: -
+Password Encrypted: -
+Summary of the Script/Solution:
+Compares two csv files and updates the data in one.
+
+Script Reusable to Other Accounts: NO
+*************************************************************************
