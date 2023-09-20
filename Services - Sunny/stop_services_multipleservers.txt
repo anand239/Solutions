@@ -1,0 +1,131 @@
+$date = Get-Date
+$OutputFile = "Stop_status.txt"
+"$date" | Out-File $OutputFile -Encoding ASCII
+$wc1 = "tws_cpa_agent_metnet_at825112"
+$wc2="tws_maestro_metnet_at825112"
+$ca1="tws_cpa_ssm_agent_METNET_at825112"
+$ca2="tws_netman_metnet_at825112"
+$ca3="tws_ssm_agent_METNET_at825112"
+$ca4="tws_ssm_agent_METNET_at825112"
+
+$s=get-content "input.txt"
+foreach($computer in $s)
+{ 
+   $a1=(Get-Service -Computer $computer -Name $wc1).Status           #wcc services
+   if ($a1 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $wc1)
+  write-host "$Computer -> $wc1 stopped succesfully"
+  "$Computer -> $wc1 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($a1 -like "stopped")
+ { 
+ write-host "$Computer -> $wc1 already in stopped state"
+  "$Computer -> $wc1 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $wc1 not found or connection issue"
+  "$Computer -> $wc1 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+  $a2=(Get-Service -Computer $computer -Name $wc2).Status                 #wcc services
+    if ($a2 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $wc2)
+  write-host "$Computer -> $wc2 stopped succesfully"
+  "$Computer -> $wc2 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($a2 -like "stopped")
+ { 
+ write-host "$Computer -> $wc2 already in stopped state"
+  "$Computer -> $wc2 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $wc2 not found or connection issue"
+  "$Computer -> $wc2 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+
+
+ $b1=(Get-Service -Computer $computer -Name $ca1).Status         #ca services
+
+  if ($b1 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $ca1)
+  write-host "$Computer -> $ca1 stopped succesfully"
+  "$Computer -> $ca1 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($b1 -like "stopped")
+ { 
+ write-host "$Computer -> $ca1 already in stopped state"
+  "$Computer -> $ca1 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $ca1 not found or connection issue"
+  "$Computer -> $ca1 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+  
+  
+  $b2=(Get-Service -Computer $computer -Name $ca2).Status      #ca services
+    if ($b2 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $ca2)
+  write-host "$Computer -> $ca2 stopped succesfully"
+  "$Computer -> $ca2 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($b2 -like "stopped")
+ { 
+ write-host "$Computer -> $ca2 already in stopped state"
+  "$Computer -> $ca2 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $ca2 not found or connection issue"
+  "$Computer -> $ca2 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+
+    
+  $b3=(Get-Service -Computer $computer -Name $ca3).Status       #ca services
+    if ($b3 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $ca3)
+  write-host "$Computer -> $ca3 stopped succesfully"
+  "$Computer -> $ca3 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($b3 -like "stopped")
+ { 
+ write-host "$Computer -> $ca3 already in stopped state"
+  "$Computer -> $ca3 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $ca3 not found or connection issue"
+  "$Computer -> $ca3 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+
+
+    
+  $b4=(Get-Service -Computer $computer -Name $ca4).Status        #ca services
+    if ($b4 -like "running*")
+   { 
+ $result=Stop-Service -InputObject $(Get-Service -Computer $computer -Name $ca4)
+  write-host "$Computer -> $ca4 stopped succesfully"
+  "$Computer -> $ca4 stopped succesfully" | Out-File $OutputFile -Encoding ASCII -Append
+ }
+ elseif($b4 -like "stopped")
+ { 
+ write-host "$Computer -> $ca4 already in stopped state"
+  "$Computer -> $ca4 already in stopped state" | Out-File $OutputFile -Encoding ASCII -Append 
+ 
+ }
+ else
+ {write-host "$Computer -> $ca4 not found or connection issue"
+  "$Computer -> $ca4 not found or connection issue" | Out-File $OutputFile -Encoding ASCII -Append
+  }
+
+
+    
+ 
+}
+

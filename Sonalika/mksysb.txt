@@ -1,0 +1,13 @@
+15 03 6 * * /opt/system/bin/mksysb_create.ksh nguknimmds001i4 /RTW_mksysb /mnt >/var/log/mksysb_local_cron.log 2>&1
+
+
+
+
+crontab -l | grep -i mksysb
+
+
+
+crontab -l | grep -i mksysb | awk '{print $8}'
+
+
+crontab -l | wc -l

@@ -1,0 +1,52 @@
+#!/bin/bash
+
+server_file="path of the serverlist file"
+while IFS= read -r server;do
+#entering  into every server
+echo "Entering into $server"
+cron_out=$(ssh $server  'crontab -l | grep -i mksysb')
+#15 03 6 * * /opt/system/bin/mksysb_create.ksh nguknimmds001i4 /RTW_mksysb /mnt >/var/log/mksysb_local_cron.log 2>&1
+#15 03 6 * * /opt/system/bin/mksysb_create.ksh nguknimmds002i4 /BTE_mksysb /mnt >/var/log/mksysb_local_cron.log 2>&1
+echo "$cron_out"
+while IFS= read -r cron_line;do
+path=$(echo "$cron_line" | awk '{print $8}')
+server1=$(echo "$cron_line" | awk '{print $7}')
+echo "The path is : $path"
+echo "The server name is : $server1"
+file="${path} ${server1}"
+
+ssh root@$server1 "file='$file' exec sh" <<'EOF'
+#enter password
+cd $path
+o=$(ls -lrt | grep -i $server)
+
+if [[ $? != 0 ]];then
+#send mail to team
+echo "No output"
+else
+# check how many entries are there
+oo=$(echo "$o" | wc -l)
+
+if [[ $oo -eq 1 ]];then
+echo "$o"
+echo "Everythig is fine"
+elif [[ $oo -gt 1]];then
+#compare dates of entries and delete the older one
+readarray -t line < <(ls -lrt | grep -i $server | awk '{print $9}')
+source_file=${line[0]}
+target_file=${line[1]}
+if [ "$source_file" -nt "$target_file" ]
+then
+    printf '%s\n' "$target_file is older than $source_file"
+else
+    printf '%s\n' "$source_file is older than $target_file"
+fi
+
+fi
+ 
+fi
+
+EOF
+done < <(echo "$cron_out" | grep mksysb)
+
+done < "$server_file"
