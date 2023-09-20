@@ -1,0 +1,170 @@
+Last login: Tue May 10 08:08:02 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+Management interface is 10.54.142.183
+Product class    : HPE StoreOnce 6500 Backup
+#
+hardware show status
+Software version : 3.18.18-1945.1
+The system has unacknowledged events:
+Alerts: 3100
+Warnings: 2343
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 03:03:21 CDT
+Name                    Dev-id                                Status
+----------------------  ------------------------------------  ------
+hpd3c10004d8-1          31343337-3338-4D32-3234-313030525148  OK
+hpd3c10004d8-2          31343337-3338-4D32-3234-313030593154  OK
+hpd3c10004d8-3          31343337-3338-4D32-3234-3130304B4233  OK
+hpd3c10004d8-4          31343337-3338-4D32-3234-313030354C44  OK
+p1228 Storage System    04528aba-0000-1000-804c-53355a304441  OK
+p1228 Storage System    04a3e660-0000-1000-801f-53355a304437  OK
+p1228 Storage System    044c8a87-0000-1000-8021-53355a303845  OK
+p1228 Storage System    044d6540-0000-1000-8021-53355a303842  OK
+HPE 5920AF-24XG Switch  switch1                               OK
+HPE 5920AF-24XG Switch  switch2                               OK
+#
+serviceset show status
+Service Set 1         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+Service Set 2         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+Service Set 3         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+Service Set 4         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+#
+system show performance
+Service Set 1
+     Storage Usage
+       Current: 88.1239 TB
+       Maximum: 205.1 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0.0 MB/s
+       Catalyst Write: 201.6 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0.0 MB/s
+       Outbound: 0.0 MB/s
+Service Set 2
+     Storage Usage
+       Current: 88.1239 TB
+       Maximum: 205.1 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0.0 MB/s
+       Catalyst Write: 72.3 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0.0 MB/s
+       Outbound: 0.0 MB/s
+Service Set 3
+     Storage Usage
+       Current: 104.988 TB
+       Maximum: 273.4 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0.0 MB/s
+       Catalyst Write: 81.7 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0.0 MB/s
+       Outbound: 0.0 MB/s
+Service Set 4
+     Storage Usage
+       Current: 104.988 TB
+       Maximum: 273.4 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0 MB/s
+       Catalyst Write: 0 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+#
+Last login: Wed May 11 08:03:14 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+#
+Management interface is 10.54.142.183
+system show packages
+Product class    : HPE StoreOnce 6500 Backup
+Software version : 3.18.18-1945.1
+The system has unacknowledged events:
+Alerts: 3100
+Warnings: 2343
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 03:08:08 CDT
+Package     Version         State
+----------  --------------  -----
+D2D_Master  3.18.18-1945.1  installed
+D2D_Master  3.18.18-1945.1  staged
+#
+system show config
+Cluster ID     :  hpa0d3c10004d8
+Description    :  hpa0d3c10004d8
+Product Class  :  HPE StoreOnce 6500 Backup
+Hardware Type  :  Physical
+Platform Type  :  Physical
+Software Ver   :  3.18.18-1945.1
+Couplets
+========
+Couplet Id
+----------
+         1
+         2
+CLI output     :  text
+Page control   :  Off 
+#

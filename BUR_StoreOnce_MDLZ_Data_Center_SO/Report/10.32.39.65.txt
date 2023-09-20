@@ -1,0 +1,113 @@
+Last login: Tue May 10 08:06:52 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+#
+hardware show status
+Management interface is 10.32.39.65
+Product class    : HPE StoreOnce 6600 System
+Software version : 3.18.18-1945.1
+The system has unacknowledged events:
+Alerts: 1004
+Warnings: 2408
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 08:01:21 UTC
+Name                    Dev-id                                Status
+----------------------  ------------------------------------  ------
+hp18826901b4-1          37343937-3435-5A43-4A36-3432314A4342  OK
+hp18826901b4-2          37343937-3435-5A43-4A36-343332383850  OK
+p1228 Storage System    05c47c0f-0000-1000-8026-453433303439  OK
+p1228 Storage System    05c48a92-0000-1000-8026-453433303443  OK
+HPE 5920AF-24XG Switch  switch1                               OK
+HPE 5920AF-24XG Switch  switch2                               OK
+#
+serviceset show status
+Service Set 1         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+Service Set 2         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+#
+system show performance
+Service Set 1
+     Storage Usage
+       Current: 271.989 TB
+       Maximum: 410.2 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0.2 MB/s
+       Catalyst Write: 373.7 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0.1 MB/s
+       Outbound: 0.0 MB/s
+Service Set 2
+     Storage Usage
+       Current: 271.989 TB
+       Maximum: 410.2 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0.0 MB/s
+       Catalyst Write: 85.3 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0.0 MB/s
+       Outbound: 0.0 MB/s
+#
+Last login: Wed May 11 08:01:14 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+Management interface is 10.32.39.65
+Product class    : HPE StoreOnce 6600 System
+Software version : 3.18.18-1945.1
+The system has unacknowledged events:
+Alerts: 1004
+Warnings: 2408
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 08:06:56 UTC
+#
+system show packages
+Package     Version         State
+----------  --------------  -----
+D2D_Master  3.18.18-1945.1  installed
+D2D_Master  3.18.18-1945.1  staged
+#
+system show config
+Cluster ID     :  hp9418826901b4
+Description    :  hp9418826901b4
+Product Class  :  HPE StoreOnce 6600 System
+Hardware Type  :  Physical
+Platform Type  :  Physical
+Software Ver   :  3.18.18-1945.1
+Couplets
+========
+Couplet Id
+----------
+         1
+CLI output     :  text
+Page control   :  Off 
+#

@@ -1,0 +1,83 @@
+Last login: Tue May 10 08:16:33 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+Management interface is 10.65.145.41
+Product class    : HPE StoreOnce 5100 System
+Software version : 3.18.20-2120.1
+The system has unacknowledged events:
+Alerts: 639
+Warnings: 24
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 08:12:15 UTC
+#
+hardware show status
+Name                  Dev-id                                Status
+--------------------  ------------------------------------  ------
+HPSGH812L201          37343937-3235-4753-4838-31324C323031  OK
+p1224 Storage System  014cc27f-0000-1000-a4a4-533746303556  OK
+#
+serviceset show status
+Service Set 1         Status
+-------------         -------
+Overall             : Running
+StoreOnce Subsystem : Running
+Virtual Tape        : Running
+NAS                 : Running
+StoreOnce Catalyst  : Running
+Replication         : Running
+Housekeeping        : Running
+#
+system show performance
+Service Set 1
+     Storage Usage
+       Current: 44.2316 TB
+       Maximum: 68.4 TB
+     Throughput
+       VTL Read: 0 MB/s
+       VTL Write: 0 MB/s
+       NAS Read: 0 MB/s
+       NAS Write: 0 MB/s
+       Catalyst Read: 0 MB/s
+       Catalyst Write: 0 MB/s
+     Replication
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+     Catalyst
+       Inbound: 0 MB/s
+       Outbound: 0 MB/s
+#
+Last login: Wed May 11 08:12:10 2022 from 10.32.24.230
+Welcome to the HPE StoreOnce Command Line Interface.
+Type 'help' at the prompt for context-sensitive help.
+Management interface is 10.65.145.41
+Product class    : HPE StoreOnce 5100 System
+Software version : 3.18.20-2120.1
+The system has unacknowledged events:
+Alerts: 639
+Warnings: 24
+You can view these events from the command 'log show events'
+You can also view and acknowledge these events by navigating to the Events page in the Management GUI
+11 May 2022 08:16:37 UTC
+#
+system show packages
+Package     Version         State
+----------  --------------  -----
+D2D_Master  3.18.20-2120.1  installed
+D2D_Master  3.18.20-2120.1  staged
+#
+system show config
+System ID      :  HPSGH812L201
+Description    :  HPSGH812L201
+Product Class  :  HPE StoreOnce 5100 System
+Hardware Type  :  Physical
+Platform Type  :  Physical
+Software Ver   :  3.18.20-2120.1
+Couplets
+========
+Couplet Id
+----------
+         1
+CLI output     :  text
+Page control   :  Off 
+#
