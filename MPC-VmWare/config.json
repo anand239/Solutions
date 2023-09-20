@@ -1,0 +1,5 @@
+{
+	"VcenterServers": ["Server1","Server2"],
+	"CredentialFile": "cred.xml"
+}
+

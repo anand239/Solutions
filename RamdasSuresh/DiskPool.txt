@@ -1,0 +1,9 @@
+Server store : Anand
+Server store11 : Anand1
+State : Up
+Server store : Anand
+Server store11 : Anand2
+State : Up
+Server store : Anand
+Server store11 : Anand4
+State : Dowm

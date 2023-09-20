@@ -1,0 +1,13 @@
+{
+  "CredentialFile": "Credential.Csv",
+  "Command": "mccli dd show-prop",
+  "Sendmail": "No",
+  "Mail": {
+    "Subject": "DataDomain Capacity Report",
+    "SmtpServer": "SMTP",
+    "Port": 25,
+    "From": "DataDomain Capacity Report Automation<do.not.reply@dxc.com>",
+    "To": "TO@dxc.com",
+    "CC": ""
+  }
+}
