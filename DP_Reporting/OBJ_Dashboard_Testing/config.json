@@ -1,0 +1,15 @@
+{
+  "#Comment1": "Reportdays - ALL or YYYY_MM or Blank",
+  "ReportDays": "All",
+  "OBJFilePath": "C:\\BURAuto\\RPT\\Server1\\OBJ_Reports", 
+  "ReportPath" : "C:\\BURAuto\\RPT\\Dashboard\\OBJ_Dashboard",
+  "deleteFilesOlderThanInDays": 0,
+  "SendEmail": "No",
+  "Mail": {
+  "Subject": "BUR_RPT_Reports",
+  "SmtpServer": "smtp.svcs.hpe.com",
+  "From": "BUR Automation<do.not.reply@dxc.com>",
+  "To": "To@dxc.com",
+  "CC": "a.chintalapudi@dxc.com"
+}
+}

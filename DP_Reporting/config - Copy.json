@@ -1,0 +1,25 @@
+{
+"Account": "AMS-LEV",
+"Technology": "BUR",
+"BackupApplication": "DP",
+"ReportType": "Reporting",
+"BackupServer": "WIN-U9B2CKGK4BD",
+"Ostype": "NonWindows",
+"ReportDays": "4",
+"EndDate" : "yyyy-MM-dd",
+"ReportPath": "C:\\Users\\achintalapud\\OneDrive - DXC Production\\Documents\\UCMS\\DP\\HC_Test\\Test_Script",
+"CredentialFile": "cred.xml",
+"EnableLogging": "No",
+"SendEmail": "Yes",
+"deleteFilesOlderThanInDays": 7,
+"SessionDetailsCommand": "omnirpt -report list_sessions -timeframe StartDate 18:00 EndDate 17:59 -tab",
+"DPVersionCommand": "Omnicheck -version",
+"SessionObjectsCommand": "omnirpt -rep session_objects -session SessionID -tab"
+"Mail": {
+"Subject": "BUR_HC_Test_Reports",
+"SmtpServer": "smtp.svcs.hpe.com",
+"From": "BUR Automation<do.not.reply@dxc.com>",
+"To": "venkata.paladugu@dxc.com",
+"CC": "a.chintalapudi@dxc.com;veena-s.navali@dxc.com"
+}
+}

@@ -1,0 +1,37 @@
+{
+  "Info1": "### Change these Parameters Accordingly ###",
+
+  "Account": "AMS-LEV",
+  "BackupServer": "WIN-U9B2CKGK4BD",
+  "ReportPath": "C:\\BURAuto\\RPT",
+  "OSType": "NonWindows",
+  "ReportDays": "4",
+  "#Comment1": "EndDate as yyyy-MM-dd or Empty",
+  "EndDate": "yyyy-MM-dd",
+  "SendEmail": "Yes",
+  "Mail": {
+    "Subject": "BUR_RPT_Reports",
+    "SmtpServer": "smtp.svcs.hpe.com",
+    "From": "BUR Automation<do.not.reply@dxc.com>",
+    "To": "TO@dxc.com",
+    "CC": "a.chintalapudi@dxc.com"
+  },
+
+  "Info2": "### Change the Paths in case of UNIX if paths used are different ###", 
+
+  "SessionDetailsCommand_NonWindows": "/opt/omni/bin/omnirpt -report list_sessions -timeframe StartDate 18:00 EndDate 17:59 -tab",
+  "DPVersionCommand_NonWindows": "/opt/omni/bin/omnicheck -version",
+  "SessionObjectsCommand_NonWindows": "/opt/omni/bin/omnirpt -rep session_objects -session SessionID -tab",
+  
+  "Info3": "### Do not Change these Parameters ###",
+
+  "Technology": "BUR",
+  "BackupApplication": "DP",
+  "ReportType": "RPT",
+  "CredentialFile": "cred.xml",
+  
+  "SessionDetailsCommand_Windows": "omnirpt -report list_sessions -timeframe StartDate 18:00 EndDate 17:59 -tab",
+  "DPVersionCommand_Windows": "omnicheck -version",
+  "SessionObjectsCommand_Windows": "omnirpt -rep session_objects -session SessionID -tab"
+
+}
