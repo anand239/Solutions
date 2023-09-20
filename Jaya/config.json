@@ -1,0 +1,12 @@
+{
+  "Server": "",
+  "StorageNodeCommandFilePath": "",
+  "Mail": {
+    "Subject": "Storage Node Offline Report",
+    "SmtpServer": "SMTP",
+    "Port": 25,
+    "From": "StorageNodeOfflineReport<do.not.reply@dxc.com>",
+    "To": "TO@dxc.com",
+    "CC": ""
+  }
+}
