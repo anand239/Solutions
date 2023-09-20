@@ -1,0 +1,5 @@
+SessionID          Type            Status             User 
+===============================================================================
+2021/07/14-33      Backup          In Progress        SERVICE-OVDP8.MOUNTSINAI@
+2021/07/15-2       Backup          In Progress        SERVICE-OVDP8.MOUNTSINAI@
+2021/07/15-4       Backup          In Progress/Failur SERVICE-OVDP8.MOUNTSINAI@

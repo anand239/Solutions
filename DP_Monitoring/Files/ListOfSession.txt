@@ -1,0 +1,6 @@
+#List of Sessions
+#Cell Manager: mshovdp002.mountsinai.hospital
+#Creation Date: 5/3/2021 2:45:22 AM
+# Headers
+# Session Type	Specification	Status	Mode	Start Time	Start Time_t	End Time	End Time_t	Queuing	Duration	GB Written	# Media	# Errors	# Warnings	# Pending DA	# Running DA	# Failed DA	# Completed DA	# Objects	# Files	Success	Session Owner	Session ID
+Backup	NT02_SYS_0100_DLY_test	Completed\Failure	incr1	5/3/2021 1:00:10 AM	1620018010	5/3/2021 1:14:15 AM	1620018855	0:00	0:14	34.47	1	0	56	0	0	0	41	41	829017	100%	MOUNTSINAI\SERVICE-OVDP8@mshovdp002.mountsinai.hospital	2021/05/03-3

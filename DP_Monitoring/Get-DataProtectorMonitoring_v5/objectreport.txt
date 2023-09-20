@@ -1,0 +1,7 @@
+Object Name                         Object Type     Object Status     CopyID
+===============================================================================
+tcwqalfap1.delphidrive.com:/?/Volume{934a1d95-adca-11e7-80d1-806e6f6e6963} 'tcwqalfap1.delphidrive.com [\\?\Volume{934a1d95-adca-11e7-80d1-806e6f6e6963}\]' WinFS           Completed       E0F67D96-EB14-49FC-8AE9-B14856475BC9/13490996 (O)
+tcwqalfap1.delphidrive.com:/CONFIGURATION 'tcwqalfap1.delphidrive.com [/CONFIGURATION]' WinFS           Completed       E0F67D96-EB14-49FC-8AE9-B14856475BC9/13490997 (O)
+tcwqalfap1.delphidrive.com:/C 'tcwqalfap1.delphidrive.com [/C]' WinFS           Completed       E0F67D96-EB14-49FC-8AE9-B14856475BC9/13490998 (O)
+tcwqalfap1.delphidrive.com:/D 'tcwqalfap1.delphidrive.com [/D]' WinFS           Completed       E0F67D96-EB14-49FC-8AE9-B14856475BC9/13490999 (O)
+tcwqalfap1.delphidrive.com:/X 'tcwqalfap1.delphidrive.com [/X]' WinFS           Completed       E0F67D96-EB14-49FC-8AE9-B14856475BC9/13491000 (O)

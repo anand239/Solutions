@@ -1,0 +1,5 @@
+"Specification","Session Id","Mode","BkpType","Client","Mount Point","Object Status","End Time"
+"GSL_10699_USINKOKP-AP03_WEEKLY","2022/06/14-122","full","WinFS","usinkokp-ap03.delphidrive.com","/I","Failed","-"
+"GSL_10699_USINKOKP-AP03_WEEKLY","2022/06/14-122","full","WinFS","usinkokp-ap03.delphidrive.com","/L","Aborted","-"
+"SCC_UNX_TSLPRRACN1B_DAILY","2022/06/14-358","incr1","FileSystem","tslprracn1b.delphidrive.com","/boot","Failed","6/14/2022 11:57:19 PM"
+"SCC_UNX_TSUPRR3DB1_DAILY","2022/06/14-392","incr1","FileSystem","tsuprr3db1c.delphidrive.com","/var","Failed","6/14/2022 9:31:46 PM"

@@ -1,0 +1,379 @@
+2022/05/30-182
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-191
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-214
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-282
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-312
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-333
+No inet issues
+No inet issues
+omnidb : No objects within session 2022/05/30-333 have been found.
+At line:1 char:1
++ omnidb -session 2022/05/30-333
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No objects with...ave been found.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+end as AutoDiagnose
+No SessionIdObjectReport
+2022/05/30-343
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-344
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-348
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-350
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-356
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-358
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-360
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-374
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-376
+No inet issues
+No inet issues
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-378
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-392
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-434
+No major or critical errors
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Object[]] does not contain a method named 'Split'.
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+2022/05/30-435
+No inet issues
+No inet issues
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:105 char:33
++ ...                           $BkpType    = $FailedObject_Split[3].trim()
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Method invocation failed because [System.Char] does not contain a method named 'Trim'.
+At line:106 char:33
++ ...                         $ObjectStatus = $FailedObject_Split[4].trim()
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+ 
+Exception calling "Substring" with "2" argument(s): "Index and length must refer to a location within the string.
+Parameter name: length"
+At line:122 char:25
++ ...             $Error_Log = ($Critical_Major.Split([Environment]::NewLin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentOutOfRangeException
+ 
+
+PS C:\BURAUTO\Monitoring> 

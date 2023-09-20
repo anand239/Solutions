@@ -1,0 +1,10 @@
+Object Name                         Object Type     Object Status     CopyID
+===============================================================================
+mshcrnftst03.mtsinai.toronto.on.ca:/var/log/audit 'mshcrnftst03.mtsinai.toronto.on.ca [/var/log/audit]' FileSystem      Completed       244BF680-9DA4-444A-95E1-C72064346137/66763249 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/var/crash 'mshcrnftst03.mtsinai.toronto.on.ca [/var/crash]' FileSystem      Completed       244BF680-9DA4-444A-95E1-C72064346137/66763250 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/home 'mshcrnftst03.mtsinai.toronto.on.ca [/home]' FileSystem      Failed          244BF680-9DA4-444A-95E1-C72064346137/66763252 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/boot 'mshcrnftst03.mtsinai.toronto.on.ca [/boot]' FileSystem      Completed       244BF680-9DA4-444A-95E1-C72064346137/66763251 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/ibus 'mshcrnftst03.mtsinai.toronto.on.ca [/ibus]' FileSystem      Completed       244BF680-9DA4-444A-95E1-C72064346137/66763253 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/var 'mshcrnftst03.mtsinai.toronto.on.ca [/var]' FileSystem      Completed       244BF680-9DA4-444A-95E1-C72064346137/66763255 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/tmp 'mshcrnftst03.mtsinai.toronto.on.ca [/tmp]' FileSystem      Failed          244BF680-9DA4-444A-95E1-C72064346137/66763254 (O)
+mshcrnftst03.mtsinai.toronto.on.ca:/ 'mshcrnftst03.mtsinai.toronto.on.ca [/]' FileSystem      Failed          244BF680-9DA4-444A-95E1-C72064346137/66763256 (O)

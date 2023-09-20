@@ -1,0 +1,10 @@
+Sepcification,SessionID,Mode,HostName,MountPoint,Object Status
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,/var/log/audit,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,/var/crash,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst04.mtsinai.toronto.on.ca,/home,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,/boot,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-6,Full,mshcrnftst03.mtsinai.toronto.on.ca,/ibus,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-6,Full,mshcrnftst03.mtsinai.toronto.on.ca,/var,Completed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,/tmp,Failed
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,/,Failed
+CERNER_SYS_DEV_WKLY_1,2021/05/01-10,Full,mshcrnftst04.mtsinai.toronto.on.ca,Inet,Failed

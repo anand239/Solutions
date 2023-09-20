@@ -1,0 +1,11 @@
+Sepcification,Session ID,Mode,HostName,Object Status,End Time
+CERNER_SYS_DEV_WKLY_4,2021/05/01-10,Full,mshcrnftst05.mtsinai.toronto.on.ca,Failed, 09/20/2021 22:31
+CERNER_SYS_DEV_WKLY_4,2021/05/01-10,Full,mshcrnftst05.mtsinai.toronto.on.ca,Failed, 10/20/2021 22:31
+CERNER_SYS_DEV_WKLY_4,2021/05/01-10,Full,mshcrnftst05.mtsinai.toronto.on.ca,Failed, 11/18/2021 17:59
+CERNER_SYS_DEV_WKLY_2,2021/05/01-8,Full,mshcrnftst03.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_3,2021/05/01-9,Full,mshcrnftst04.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_4,2021/05/01-10,Full,mshcrnftst05.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_4,2021/05/01-1,Full,mshcrnftst05.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_2,2021/05/01-86,Full,mshcrnftst03.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_3,2021/05/01-94,incr,mshcrnftst04.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31
+CERNER_SYS_DEV_WKLY_44,2021/05/01-94,Full,mshcrnftst04.mtsinai.toronto.on.ca,Failed, 11/18/2021 22:31

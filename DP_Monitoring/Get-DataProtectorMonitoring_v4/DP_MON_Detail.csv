@@ -1,0 +1,4 @@
+"Specification","Session Id","Mode","BkpType","Client","Mount Point","Object Status","End Time"
+"GSL_236_LUBAS-BU01_DAILY","2022/06/21-136","incr1","Oracle8","lubas-bu01.delphidrive.com","Inet","Failed","6/21/2022 11:17:54 AM"
+"GSL_269_TRIZMP-AP12_DAILY","2022/06/21-216","incr1","WinFS","trizmp-ap12.delphidrive.com","/E","Failed","6/21/2022 7:39:49 PM"
+"SCC_WIN_TSWPRUTAP1_DAILY","2022/06/21-393","incr1","WinFS","tswprutap1.delphidrive.com","/CONFIGURATION","Aborted","6/22/2022 4:53:20 AM"

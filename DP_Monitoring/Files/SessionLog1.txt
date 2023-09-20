@@ -1,0 +1,136 @@
+[Normal] From: BSM@mshovdp002.mountsinai.hospital "Adhoc_CERNER_SYS_DEV_WKLY_2"  Time: 5/1/2021 6:30:10 AM
+	Backup session 2021/05/01-8 started.
+
+[Warning] From: BSM@mshovdp002.mountsinai.hospital "Adhoc_CERNER_SYS_DEV_WKLY_2"  Time: 5/1/2021 6:30:12 AM
+[61:2013]  	Some of the backup devices are occupied. Session is waiting
+	for all the devices to get free.
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:01:07 AM
+	STARTING Media Agent "MSH_LTO6_D2"
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:01:11 AM
+	=> UMA@mshovdp002.mountsinai.hospital@Changer0:0:0:1
+	Loading medium from slot 42 to device Tape3:0:1:0C
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var/log/audit]"  Time: 5/1/2021 7:02:12 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var/log/audit "mshcrnftst03.mtsinai.toronto.on.ca [/var/log/audit]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var/crash]"  Time: 5/1/2021 7:02:12 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var/crash "mshcrnftst03.mtsinai.toronto.on.ca [/var/crash]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/boot]"  Time: 5/1/2021 7:02:12 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/boot "mshcrnftst03.mtsinai.toronto.on.ca [/boot]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/home]"  Time: 5/1/2021 7:02:18 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/home "mshcrnftst03.mtsinai.toronto.on.ca [/home]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]"  Time: 5/1/2021 7:02:18 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/ibus "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:18 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/tmp "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:02:18 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/ "mshcrnftst03.mtsinai.toronto.on.ca [/]".
+
+[Warning] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:02:23 AM
+	/boot
+	Directory is a mount point to a different filesystem. 
+	Backed up as empty directory without extended attributes and ACLs.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var]"  Time: 5/1/2021 7:02:23 AM
+	STARTING Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var "mshcrnftst03.mtsinai.toronto.on.ca [/var]".
+
+[Warning] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var]"  Time: 5/1/2021 7:02:24 AM
+	/var/crash
+	Directory is a mount point to a different filesystem. 
+	Backed up as empty directory without extended attributes and ACLs.
+
+[Critical] From: BDA-NET@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	Cannot connect to Media Agent on system mshovdp002.mountsinai.hospital, port 60015 (IPC Cannot Connect
+	System error: [110] Connection timed out
+) => aborting.
+
+[Critical] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	Unexpected close reading NET message => aborting.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	ABORTED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/tmp "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]".
+
+[Critical] From: BDA-NET@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:03:14 AM
+	IPC failure reading NET message (IPC Read Error
+	System error: [110] Connection timed out
+) => aborting.
+
+[Critical] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:03:14 AM
+	Unexpected close reading NET message => aborting.
+
+[Critical] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:03:14 AM
+	Connection to Media Agent broken => aborting.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:03:14 AM
+	ABORTED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/ "mshcrnftst03.mtsinai.toronto.on.ca [/]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var/crash]"  Time: 5/1/2021 7:03:51 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var/crash "mshcrnftst03.mtsinai.toronto.on.ca [/var/crash]".
+
+[Warning] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var]"  Time: 5/1/2021 7:03:52 AM
+	/var/log/audit
+	Directory is a mount point to a different filesystem. 
+	Backed up as empty directory without extended attributes and ACLs.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/boot]"  Time: 5/1/2021 7:03:53 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/boot "mshcrnftst03.mtsinai.toronto.on.ca [/boot]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var/log/audit]"  Time: 5/1/2021 7:03:59 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var/log/audit "mshcrnftst03.mtsinai.toronto.on.ca [/var/log/audit]".
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var]"  Time: 5/1/2021 7:04:11 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var "mshcrnftst03.mtsinai.toronto.on.ca [/var]".
+
+[Major] From: BSM@mshovdp002.mountsinai.hospital "Adhoc_CERNER_SYS_DEV_WKLY_2"  Time: 5/1/2021 7:04:23 AM
+[61:3003]  	Lost connection to VBDA named "mshcrnftst03.mtsinai.toronto.on.ca [/home]"
+	on host mshcrnftst03.mtsinai.toronto.on.ca.
+	Ipc subsystem reports: "IPC Read Error
+	System error: [10054] Connection reset by peer
+"
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]"  Time: 5/1/2021 7:11:01 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/ibus "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]".
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:12:34 AM
+	Tape3:0:1:0C
+	Medium header verification completed, 0 errors found.
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:12:55 AM
+	Ejecting medium '42'.
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:12:55 AM
+	=> UMA@mshovdp002.mountsinai.hospital@Changer0:0:0:1
+	Unloading medium to slot 42 from device Tape3:0:1:0C
+
+[Normal] From: BMA@mshovdp002.mountsinai.hospital "MSH_LTO6_D2"  Time: 5/1/2021 7:13:41 AM
+	COMPLETED Media Agent "MSH_LTO6_D2"
+
+[Normal] From: BSM@mshovdp002.mountsinai.hospital "Adhoc_CERNER_SYS_DEV_WKLY_2"  Time: 5/1/2021 7:13:42 AM
+
+	Backup Statistics:
+          
+		Session Queuing Time (hours)         0.52        
+		-------------------------------------------      
+		Completed Disk Agents ........          5          
+		Failed Disk Agents ...........          3          
+		Aborted Disk Agents ..........          0          
+		-------------------------------------------      
+		Disk Agents Total  ...........          8          
+		===========================================      
+		Completed Media Agents .......          1          
+		Failed Media Agents ..........          0          
+		Aborted Media Agents .........          0          
+		-------------------------------------------      
+		Media Agents Total  ..........          1          
+		===========================================      
+		Mbytes Total .................   19039 MB        
+		Used Media Total .............          1          
+		Disk Agent Errors Total ......          3    
+

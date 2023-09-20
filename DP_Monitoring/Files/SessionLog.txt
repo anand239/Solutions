@@ -1,0 +1,55 @@
+[Majorrr] From: BSM@peburdp01 "Adhoc_PRSV10_LTO6_SYS" Time: 4/30/2021 11:29:01 PM
+[61:4006]  	Could not connect to inet in order to start VBDA@prsv10g0.perkinelmer.com "/home prsv10g0.perkinelmer.com [/home]".
+
+[Critical] From: BSM@bezvsdpcm101.mcbczvn.msv.ssn.entsvcs.net "BEZVSDPCM101_MCBC_D1N_BEZVSQLCLUS001_ID"  Time: 5/4/2021 11:31:06 PM
+[61:12500] 	Cannot connect to inet for get filesystem list
+	on host"bezvsqlclus001.millercoors.com".
+
+[Critical] From: BSM@bezvsdpcm101.mcbczvn.msv.ssn.entsvcs.net "BEZVP_bezvsqlclus001_SQL_TRANS"  Time: 5/5/2021 6:01:43 AM
+	Cannot connect to inet for starting of OB2BAR application sql_bar.exe
+	on host"bezvsqlclus001.millercoors.com".
+
+[Major] From: BSM@peburdp01 "Adhoc_PRSV10_LTO6_SYS" Time: 4/30/2021 11:29:01 PM
+[61:4006]  	Could not connect to inet in order to start VBDA@Anand.perkinelmer.com "/home prsv10g0.perkinelmer.com [/home]".
+
+[Critical] From: BSM@bezvsdpcm101.mcbczvn.msv.ssn.entsvcs.net "BEZVSDPCM101_MCBC_D1N_BEZVSQLCLUS001_ID"  Time: 5/4/2021 11:31:06 PM
+[61:12500] 	Cannot connect to inet for getting filesystem list
+	on host"Vardhan.millercoors.com".
+
+[Critical] From: BSM@bezvsdpcm101.mcbczvn.msv.ssn.entsvcs.net "BEZVP_bezvsqlclus001_SQL_TRANS"  Time: 5/5/2021 6:01:43 AM
+	Cannot connect to inet for start of OB2BAR application sql_bar.exe
+	on host"bezvsqlclus001.millercoors.com".
+
+[Normal] From: BSM@bezvsdpcm101.mcbczvn.msv.ssn.entsvcs.net "BEZVP_bezvsqlclus001_SQL_TRANS"  Time: 5/5/2021 6:01:43 AM
+	Cannot connect to inet for start of OB2BAR application sql_bar.exe
+	on host"bezvsqlclus001.millercoors.com".
+
+[Critical] From: BDA-NET@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	Cannot connect to Media Agent on system mshovdp002.mountsinai.hospital, port 60015 (IPC Cannot Connect
+	System error: [110] Connection timed out
+) => aborting.
+
+[Critical] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	Unexpected close reading NET message => aborting.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]"  Time: 5/1/2021 7:02:25 AM
+	ABORTED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/tmp "mshcrnftst03.mtsinai.toronto.on.ca [/tmp]".
+
+[Critical] From: BDA-NET@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/]"  Time: 5/1/2021 7:03:14 AM
+	IPC failure reading NET message (IPC Read Error
+	System error: [110] Connection timed out
+) => aborting.
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/var]"  Time: 5/1/2021 7:04:11 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/var "mshcrnftst03.mtsinai.toronto.on.ca [/var]".
+
+[Major] From: BSM@mshovdp002.mountsinai.hospital "Adhoc_CERNER_SYS_DEV_WKLY_2"  Time: 5/1/2021 7:04:23 AM
+[61:3003]  	Lost connection to VBDA named "mshcrnftst03.mtsinai.toronto.on.ca [/home]"
+	on host mshcrnftst03.mtsinai.toronto.on.ca.
+	Ipc subsystem reports: "IPC Read Error
+	System error: [10054] Connection reset by peer
+"
+
+[Normal] From: VBDA@mshcrnftst03.mtsinai.toronto.on.ca "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]"  Time: 5/1/2021 7:11:01 AM
+	COMPLETED Disk Agent for mshcrnftst03.mtsinai.toronto.on.ca:/ibus "mshcrnftst03.mtsinai.toronto.on.ca [/ibus]".
+

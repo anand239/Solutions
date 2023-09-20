@@ -1,0 +1,102 @@
+[Normal] From: BSM@caonstrp-ap01.delphidrive.com "GSL_236_LUBAS-BU01_DAILY"  Time: 6/21/2022 11:00:02 AM
+	Backup session 2022/06/21-136 started.
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 10:59:21 AM
+	STARTING Media Agent "HP:Ultrium 7-SCSI_1_lubasp-bu03"
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 10:59:25 AM
+	=> UMA@lubasp-bu03.delphidrive.com@scsi3:0:0:1
+	Loading medium from slot 38 to device scsi3:0:0:0C
+
+[Major] From: BSM@caonstrp-ap01.delphidrive.com "GSL_236_LUBAS-BU01_DAILY"  Time: 6/21/2022 11:01:48 AM
+[61:4006]  	Could not connect to inet in order to start VBDA@lubas-bu01.delphidrive.com "/CONFIGURATION lubas-bu01.delphidrive.com [/CONFIGURATION]".
+
+[Warning] From: BSM@caonstrp-ap01.delphidrive.com "GSL_236_LUBAS-BU01_DAILY"  Time: 6/21/2022 11:02:24 AM
+	The backup of this object will be retried at end of session.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:40 AM
+	STARTING Disk Agent for lubas-bu01.delphidrive.com:/C "lubas-bu01.delphidrive.com [/C]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:54 AM
+	VSS Writer 'ASR Writer':Component 'BCD' successfully added in the snapshot.
+
+[Critical] From: BSM@caonstrp-ap01.delphidrive.com "GSL_236_LUBAS-BU01_DAILY"  Time: 6/21/2022 11:01:48 AM
+[61:4006]  	Could not connect to inet in order to start VBDA@lubas-bu02.delphidrive.com "/CONFIGURATION lubas-bu01.delphidrive.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:54 AM
+	VSS Writer 'Registry Writer':Component 'Registry' successfully added in the snapshot.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:54 AM
+	VSS Writer 'COM+ REGDB Writer':Component 'COM+ REGDB' successfully added in the snapshot.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:54 AM
+	VSS Writer 'WMI Writer':Component 'WMI' successfully added in the snapshot.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:01:54 AM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:02:15 AM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/C]"  Time: 6/21/2022 11:12:07 AM
+	COMPLETED Disk Agent for lubas-bu01.delphidrive.com:/C "lubas-bu01.delphidrive.com [/C]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/D]"  Time: 6/21/2022 11:12:09 AM
+	STARTING Disk Agent for lubas-bu01.delphidrive.com:/D "lubas-bu01.delphidrive.com [/D]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/D]"  Time: 6/21/2022 11:12:10 AM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/D]"  Time: 6/21/2022 11:12:30 AM
+	Clearing archive flags is not applicable with Volume Shadow Copy backup.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/D]"  Time: 6/21/2022 11:12:41 AM
+	COMPLETED Disk Agent for lubas-bu01.delphidrive.com:/D "lubas-bu01.delphidrive.com [/D]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/CONFIGURATION]"  Time: 6/21/2022 11:12:44 AM
+	STARTING Disk Agent for lubas-bu01.delphidrive.com:/CONFIGURATION "lubas-bu01.delphidrive.com [/CONFIGURATION]".
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/CONFIGURATION]"  Time: 6/21/2022 11:14:08 AM
+	Successfully collected system recovery data.
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/CONFIGURATION]"  Time: 6/21/2022 11:14:08 AM
+	Collecting Automatic DR data. This may take a few minutes...
+
+[Normal] From: VBDA@lubas-bu01.delphidrive.com "lubas-bu01.delphidrive.com [/CONFIGURATION]"  Time: 6/21/2022 11:14:11 AM
+	COMPLETED Disk Agent for lubas-bu01.delphidrive.com:/CONFIGURATION "lubas-bu01.delphidrive.com [/CONFIGURATION]".
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 11:15:28 AM
+	scsi3:0:0:0C
+	Medium header verification completed, 0 errors found.
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 11:16:38 AM
+	Ejecting medium '38'.
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 11:16:38 AM
+	=> UMA@lubasp-bu03.delphidrive.com@scsi3:0:0:1
+	Unloading medium to slot 38 from device scsi3:0:0:0C
+
+[Normal] From: BMA@lubasp-bu03.delphidrive.com "HP:Ultrium 7-SCSI_1_lubasp-bu03"  Time: 6/21/2022 11:17:07 AM
+	COMPLETED Media Agent "HP:Ultrium 7-SCSI_1_lubasp-bu03"
+
+[Normal] From: BSM@caonstrp-ap01.delphidrive.com "GSL_236_LUBAS-BU01_DAILY"  Time: 6/21/2022 11:17:54 AM
+
+	Backup Statistics:
+
+		Session Queuing Time (hours)         0.00
+		-------------------------------------------
+		Completed Disk Agents ........          3
+		Failed Disk Agents ...........          0
+		Aborted Disk Agents ..........          0
+		-------------------------------------------
+		Disk Agents Total  ...........          3
+		===========================================
+		Completed Media Agents .......          1
+		Failed Media Agents ..........          0
+		Aborted Media Agents .........          0
+		-------------------------------------------
+		Media Agents Total  ..........          1
+		===========================================
+		Mbytes Total .................    3053 MB
+		Used Media Total .............          1
+		Disk Agent Errors Total ......          0

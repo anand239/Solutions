@@ -1,0 +1,16 @@
+{
+  "Info1": "### Change these Parameters Accordingly ###",
+
+  "Account": "DT",
+  "BackupServer": "LocalHost",
+  "ReportPath": "D:\\BUR AUTO\\Monitoring",
+  "OsType": "Windows",
+  "Mail": {
+    "Subject": "DP Health Check Report",
+    "SmtpServer": "mail.delphidrive.com",
+    "Port": 25,
+    "From": "BUR Automation<do.not.reply@dxc.com>",
+    "To": "To Email-ID 1;To Email-ID 2",
+    "CC": "CC Email-ID 1;CC Email-ID 2"
+  }
+}
