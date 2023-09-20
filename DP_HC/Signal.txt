@@ -1,0 +1,8 @@
+HealthCheckName,HealthCheckValue,HealthCheckValue(Percentage),HealthCheckStatus
+DP Service Status, 6/6, 100%, G
+Queuing Backup Count(>30 min), 0/1,0%, G
+Long Running Backup Count(>12 and < 24 Hrs), 0/1,0%, G
+Long Running Backup Count(>24 Hrs), 0/1,0%, G
+Mount Request Count, 0/1, 0%, G
+Disabled Tape Drive Count, 2/14, 14.29%, R
+Scratch Media Count, 3/25, 12%, Y

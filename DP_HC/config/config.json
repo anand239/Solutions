@@ -1,0 +1,30 @@
+{
+"Account": "Test-ACC",
+"Technology": "BUR",
+"BackupApplication": "DP",
+"ReportType": "HC",
+"BackupServer": "WIN-HN3S1C28UTD",
+"ReportPath": "C:\\CB\\V3",
+"CredentialFile": "cred.xml",
+"EnableLogging": "No",
+"SendEmail": "No",
+"UsePlink" : "No",
+"PlinkPath" : "C:\\Program Files\\Putty",
+"deleteFilesOlderThanInDays": 7,
+"ServiceHealthCheckCommand": "omnisv -status",
+"QueuingBackupHealthCheckCommand": "omnistat -detail",
+"DisabledTapeDriveCountCommand": "omnidownload -list_devices -detail",
+"ScratchMediaCountCommand": "omnirpt -report pool_list -tab",
+"FailedBackupCount": "omnirpt -report list_sessions -timeframe StartDate 18:00 EndDate 17:59 -tab -no_copylist -no_verificationlist -no_conslist",
+"HungBackupCountCommand" : "omnidb -rpt SessionId -details",
+"IDBBackupCommand" : "omnidb -session SessionID -media",
+"LibraryStatusLocalCommand" : "omnimm -repository_barcode_scan TapeLibraryName",
+"CriticalBackupServersInputFile": "CriticalBkp.txt",
+"LibraryDetailsInputFile": "LibraryDetails.txt",
+"Mail": {
+"SmtpServer": "smptp server",
+"From": "BUR Automation<do.not.reply@dxc.com",
+"To": "Toaddress",
+"CC": "CCAddress"
+}
+}

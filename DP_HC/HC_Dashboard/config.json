@@ -1,0 +1,17 @@
+{
+  "DashboardFolder": "Dashboard",
+  "ReportFolder": "tmpFiles",
+  "RepositoryFolder": "Repository",
+  "DownloadFromOutLook": "yes",
+  "mailbox": "YOUR@dxc.com",
+  "mailLocation": "Inbox\\BURAUTO\\HC",
+  "senderMailAddress": ["BUR Automation <do.not.reply@dxc.com>"],
+  "BackupApplication": {
+    "DP": "Data Protector",
+    "AV": "Avamar",
+    "NW": "Networker",
+    "TSM": "Tivoli Storage Manager",
+    "NB": "NetBackup",
+    "DD": "Data Domain"
+  }
+}
